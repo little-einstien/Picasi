@@ -1,0 +1,44 @@
+#main-div-wrapper {
+	height: 0px;		
+	position: fixed;
+	right: 0px; /*used for right spacing from window*/
+	bottom: 0px; /*used for bottom spacing from window*/
+	width: 100%;
+	max-width: 400px;
+	margin-right:10px;
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); /*background for chat window*/
+}
+
+#main-div-wrapper.widget-toggle {
+	height: 420px !important;
+} 
+
+.chatbot-icon {
+    margin-bottom: 15px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+}
+		
+#close-icon {
+	text-align:right;
+    width: 100%;
+    background: orange; /*put color according to you*/
+}
+
+#close-icon i {
+	cursor:pointer;
+	margin:10px;
+    height: auto;
+    max-width: 100%;
+    width: 32px;
+}
+
+.chatbot-icon img {
+	width:80px;
+    height: 80px; /*height always use auto*/
+    cursor: pointer;
+    border-radius: 100%;
+    background: orange; /*put backround color if you want below your icon any color*/
+}

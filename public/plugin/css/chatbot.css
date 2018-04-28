@@ -1,0 +1,320 @@
+body {
+    overflow: hidden;
+    background: transparent;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+.custom-main-wrapper {
+	width: 100%;
+	float: none;
+	position: relative;
+	max-width: 400px;
+	margin: 0 auto;
+}
+.custom-main {
+	width: 100%;
+	float: left;
+	position: relative;
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	
+	border: 1px solid #CEE3DE;
+	border-radius: 5px;
+	padding-bottom: 60px;
+	border: 0px;
+}
+.custom-msg-writer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 0 10px 10px;
+}
+.custom-msg-writer input {
+	width: 100% !important;
+	display: inline-block !important;
+	padding-right: 40px !important;
+	margin-bottom:10px !important;
+	background: white !important;
+    width: 334px !important;
+    padding-left: 10px !important;
+}
+.book {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+div#response {
+	text-align: left;
+	padding: 10px;
+	width: calc(100% - 14px) !important;
+	width: 100% !important;
+	float: left;
+	color: #fff;
+	color: #000;
+	height: 320px;
+	overflow-y: scroll;
+	padding-right: 10px !important;
+	padding-top: 0px;
+}
+.custom-msg-wrapper {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	position: relative;
+}
+/*.custom-msg-wrapper:last-child:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}*/
+.custom-text-wraper {
+	display: block;
+	padding: 10px;
+	/*background: #CEE3DE;
+	color: #08B2BD;
+	background: #a4cc4e;*/
+	background: #fff;
+	color: #000;
+	margin-top: 15px;
+	width: 100%;
+}
+.custom-response-boot {
+	border-top-left-radius: 1.3em;
+	border-bottom-left-radius: 1.3em;
+	border-bottom-right-radius: 1.3em;
+	float: right;
+	margin-right: 5px;
+}
+.custom-response-user {
+	border-top-right-radius: 1.3em;
+	border-bottom-left-radius: 1.3em;
+	border-bottom-right-radius: 1.3em;
+	float: left;
+	margin-left: 5px;
+}
+.bg-tiffanyblue {
+	background: #00917B  !important;
+	color: #fff;    
+}
+.m-b-10{
+	margin-bottom:10px;
+}
+.custom-btn-response {
+	display: block;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 5px 10px;
+	/*background: #08B2BD;
+	background: #0090d9;*/
+	background: #a4cc4e;
+	cursor: pointer;
+	color: #fff;
+	text-align: left;
+	box-shadow: none;
+	border: 0;
+	outline: 0;
+	transition: all .3s ease;
+	width: 100%;
+	text-align: center;
+}
+.custom-btn-response:hover {
+	color: #fff;
+	transition: all .3s ease;
+}
+.custom-btn-response:last-child {
+	margin-bottom: 0px;
+}
+#loader {
+	background-color: #f1f1f1;
+	border-top-left-radius: 1.3em;
+	border-bottom-left-radius: 1.3em;
+	border-bottom-right-radius: 1.3em;
+	box-shadow: 0 0.4px 0.2px rgba(0,0,0,.13);
+	padding: 12px 12px;
+	display: none;
+	position: absolute;
+	bottom: 0;
+	right: 30px;
+}
+/* type icon */
+#wave {
+  position:relative;
+  /*margin-top:50vh;*/
+  text-align:center;
+  width:32px;
+  height:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dot {
+  display:inline-block;
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  margin-right:3px;
+  background-color:#000;
+  animation: wave 1.3s linear infinite;
+}
+.dot:nth-child(2) {
+  animation-delay: -1.1s;
+}
+.dot:nth-child(3) {
+  animation-delay: -0.9s;
+}		
+/* type icon animation keyframes */
+@keyframes wave {
+  0%, 60%, 100% {
+	transform: initial;
+  }
+
+  30% {
+	transform: translateY(-10px);
+  }
+}
+/* type icon animation keyframes */
+/* type icon 
+.custom-sendIcon {
+	background: transparent;
+	border: 0px;
+	box-shadow: none;
+	position: absolute;
+	right: 60px;
+	bottom: 17px;
+	font-size: 20px;
+	color: #999;
+	cursor: pointer;
+	outline: 0px;
+}
+*/
+.custom-sendIcon {
+    background: transparent;
+    border: 0px;
+    box-shadow: none;
+    position: absolute;
+    right: 15px;
+    bottom: 17px;
+    font-size: 20px;
+    color: deepskyblue;
+    cursor: pointer;
+    outline: 0px;
+	margin-bottom:10px;
+}
+/* scrollbar */
+.scrollbox {
+	overflow: auto; /* This is changed by enscroll, but must be defined */
+	width: 368px;   /* The arbitrary width and height of the view pane */
+	height: 550px;
+}
+.vertical-track {
+	width: 5px;            /* How wide is the scrollbar going to be? */
+	background-color: #aaa; /* What color should the vertical track be? */
+}
+.vertical-handle {
+	width: 5px;            /* How wide is the scrollbar handle? */
+	background-color: #000; /* What color should the handle be? */
+}
+/* scrollbar */
+.custom-msg-writer .btn-primary {
+	vertical-align: top;
+	height: 32px;
+}
+.btn-primary {
+	background-color: #0090d9;
+	border-color: #0090d9;
+}
+.col-xs-2 {
+	width: 10%;
+}
+.col-xs-10 {
+	width: 90%;
+}
+/* Common CSS */
+body {
+	overflow: hidden;
+}
+.f-10 {
+	font-size: 10px;
+}
+.clear {
+	clear: both;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.p-t-10 {
+	padding-top: 10px;
+}
+.p-l-0 {
+	padding-left: 0px;
+}
+.p-l-2 {
+	padding-left: 2px;
+}
+.p-r-0 {
+	padding-right: 0px;
+}
+/* Common CSS */
+.custom-text-wraper .tooltip-inner {
+	width: 70px !important;
+}
+#rateus {
+	cursor: pointer;
+}
+.custom-chatbot-close {
+	float: right;
+	cursor: pointer;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	background: #0090d9;
+	line-height: 30px;
+	color: #fff;
+	font-weight: normal;
+}
+.f-13 {
+	font-size: 13px;
+}
+	.star-fg a > span {
+	color: #0090d9;
+}
+.custom-chatbot-header {
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	background: #eee;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+.custom-chatbot-header p {
+	margin: 0px;
+}
+/* color */
+.c5 {
+    background: #FF0000 !important;
+}
+.c4 {
+    background: #E54343 !important;
+}
+.c3 {
+    background: #0090D9 !important;
+}
+.c2 {
+    background: #90EE90 !important;
+}
+.c1 {
+    background: #006400 !important;
+}
+.custom-msg-writer .form-control[disabled],
+.custom-msg-writer .form-control[readonly],
+.custom-msg-writer fieldset[disabled] .form-control {
+    background: #fff;
+}
