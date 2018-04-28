@@ -61,8 +61,8 @@ var app = angular.module('LoginForm',['ngMaterial','ngAnimate','ngAria','ngMessa
 .controller('Ctrl', function($scope){
   $scope.vm = {
       formData: {
-        email: '',
-       	password: ''
+        email: 'admin',
+       	password: 'admin'
       },
 	  submit : function(){
 		if($scope.vm.formData.email === "admin" && $scope.vm.formData.password === "admin"){
