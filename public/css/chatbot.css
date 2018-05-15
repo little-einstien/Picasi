@@ -141,6 +141,7 @@ div#response {
 	position: absolute;
 	bottom: 0;
 	right: 30px;
+	margin-bottom: 10px;
 }
 /* type icon */
 #wave {
@@ -317,4 +318,12 @@ body {
 .custom-msg-writer .form-control[readonly],
 .custom-msg-writer fieldset[disabled] .form-control {
     background: #fff;
+}
+.row{
+	margin-bottom:0px !important;
+}.inline-icon {
+   vertical-align: bottom;
+   font-size: 23px !important;
+   margin-left: 10px;
+    margin-right: 10px;
 }

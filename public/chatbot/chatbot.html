@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Chatbot</title>
+	<!--<link rel="icon" type="image/gif" href="/feedback/images/dslogo.gif"> -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+	<!-- Rating -->
+	<link rel="stylesheet" href="./css/ratingbar.css" />
+	<!-- font awesome -->
+	<link rel="stylesheet" href="./css/font-awesome.min.css" />
+	<link rel="stylesheet" href="./css/chatbot.css" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+	<!--<div class="custom-chatbot-header">
+		<img src="feedback/images/dslogo.jpg" style="max-width: 100%;height: 60px;margin-bottom: 10px;margin-top: 5px;">
+		<p>Chatbot</p>
+	</div> -->
+	<div class="custom-main-wrapper">
+		<div class="custom-main">
+			<div class="custom-msg-writer">
+				<input placeholder= "Type your message here" id="input" type="text" class="form-control">
+				<input  id="input_h" type="hidden" class="form-control">
+				<button id="sendIcon" onClick = "sendMessage()" class="custom-sendIcon"><span class="glyphicon glyphicon-send"></span></button>
+				<!--<button id="rec" class="btn btn-primary">
+					<i class="fa fa-microphone" aria-hidden="true"></i>
+				</button>-->
+			</div>
+			<div class= "book">
+				<div id="response" class="scrollbox">
+				</div>
+				<div id="loader">
+					<div class="dot"></div>
+					<div class="dot"></div>
+					<div class="dot"></div>
+				</div>
+			</div>
+		</div>
+
+<div style="margin-top:10px">
+</div>
+	</div>
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<!-- bootstrap -->
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<!-- Rating -->
+	<script type="text/javascript" src="./js/ratingbar.js"></script>
+	<!-- Scrollbar -->
+	<script type="text/javascript" src="./js/6c40385c.modernizr.min.js"></script>
+	<script type="text/javascript" src="./js/ad0a530b.script.min.js"></script>
+	<script type="text/javascript" src="./js/chatbot.js"></script>
+	<script type="text/javascript" src="./js/materialize.js"></script>
+<script>
+function hear(message){
+	var msg = getBotResponseAsHTML(message);
+	conversation.push(msg);
+	setResponse();
+}
+
+</script>
+
+</body>
+
+</html>

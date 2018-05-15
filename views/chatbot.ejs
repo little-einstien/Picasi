@@ -15,8 +15,9 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-
-	<!--<div class="custom-chatbot-header">
+  
+  
+  	<!--<div class="custom-chatbot-header">
 		<img src="feedback/images/dslogo.jpg" style="max-width: 100%;height: 60px;margin-bottom: 10px;margin-top: 5px;">
 		<p>Chatbot</p>
 	</div> -->
@@ -25,10 +26,10 @@
 			<div class="custom-msg-writer">
 				<input placeholder= "Type your message here" id="input" type="text" class="form-control">
 				<input  id="input_h" type="hidden" class="form-control">
-				<button id="sendIcon" onClick = "sendMessage()" class="custom-sendIcon"><span class="glyphicon glyphicon-send"></span></button>
-				<!--<button id="rec" class="btn btn-primary">
+				<!-- <button id="sendIcon" onClick = "startRecognition(event)" class="custom-sendIcon"><i class="material-icons">keyboard_voice</i></button> -->
+				<button id="rec" class="btn btn-primary custom-sendIcon" onClick = "startRecognition(event)">
 					<i class="fa fa-microphone" aria-hidden="true"></i>
-				</button>-->
+				</button>
 			</div>
 			<div class= "book">
 				<div id="response" class="scrollbox">
@@ -44,6 +45,35 @@
 <div style="margin-top:10px">
 </div>
 	</div>
+<div id="modal1" class="modal">
+    <div class="modal-content">
+      <div id="page-wrapper">
+  <h1>Web Speech Synthesis Demo</h1>
+  
+  <p id="msg"></p>
+	<div class="option">
+		<label for="voice">Voice</label>
+		<select name="voice" id="voice"></select>
+	</div>
+	<div class="option">
+		<label for="volume">Volume</label>
+		<input type="range" min="0" max="1" step="0.1" name="volume" id="volume" value="1">
+	</div>
+	<div class="option">
+		<label for="rate">Rate</label>
+		<input type="range" min="0.1" max="10" step="0.1" name="rate" id="rate" value="1">
+	</div>
+	<div class="option">
+		<label for="pitch">Pitch</label>
+		<input type="range" min="0" max="2" step="0.1" name="pitch" id="pitch" value="1">
+	</div>
+
+	<button id="speak">Speak</button>
+
+</div>
+    </div>
+    
+  </div>
 
 	<script type="text/javascript" src="/js/jquery.min.js"></script>
 	<!-- bootstrap -->
@@ -55,8 +85,14 @@
 	<script type="text/javascript" src="/js/ad0a530b.script.min.js"></script>
 	<script type="text/javascript" src="/js/chatbot.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
-
+	<script type="text/javascript"  src="/js/tts.js"></script>
 
 </body>
-
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, {});
+  });
+  $('select').show();
+      </script>
 </html>

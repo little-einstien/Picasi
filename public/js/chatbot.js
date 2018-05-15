@@ -1,19 +1,9 @@
-//HTML String for displaying rating stars
-/*var RATING_HTML = '<div class = "rating_c" data-role="ratingbar" data-steps="2" style="font-size: 10px"> '+
-					  '<ul> '+
-						'<li><a href="javascript:void(0)"><span class="glyphicon glyphicon-star"></span></a></li> '+
-						'<li><a href="javascript:void(0)"><span class="glyphicon glyphicon-star"></span></a></li> '+
-						'<li><a href="javascript:void(0)"><span class="glyphicon glyphicon-star"></span></a></li> '+
-						'<li><a href="javascript:void(0)"><span class="glyphicon glyphicon-star"></span></a></li> '+
-						'<li><a href="javascript:void(0)"><span class="glyphicon glyphicon-star"></span></a></li> '+
-					  '</ul> '+
-					'</div> ';
-*/
-var DEFAULT_WELCOME_MSG = "<p>Hi i am Sonia your <a href='https://www.ey.com/' target='_blank'><b>virtual Assistant</b></a>.How may i help you today?</p>";
+var DEFAULT_WELCOME_MSG = "<p>Hi i am Picasi your <b>virtual Assistant</b></p><p>How may i help you today?</p>";
 var BOT_ICON = "/images/robot-icon.png";					
 var USER_ICON = "/images/user-icon.png";					
 var ACCESS_TOKEN = "212103e00ea54783ae97206ead265744";
-var BASE_URL = "https://api.api.ai/v1/";
+var BASE_URL1= "http://localhost:3000/getres/";
+var BASE_URL2 = "http://localhost:80/api/";
 var automatedReplyGenerated = false;
 
 //response types 
@@ -25,33 +15,18 @@ var chat = [];
 var conversation = []; //array that will hold the whole conversation
 
 $(document).ready(function() {
-	//Default welcome message by bot will be printed
-	//$("#response").html(conversation.join(""));
-	sendGiftCard();
-	//event will be called when enter button is clicked
 	$("#input").keypress(function(event) {
 		if (event.which == 13) {
 			event.preventDefault();
 			sendMessage();
 		}
 	});
-	//click event for recording button
-	$("#rec").click(function(event) {
-		switchRecognition();
-	});
-	
-	//click event close button for closing iframe
-	$('.custom-chatbot-close').click(function(){
-		window.parent.$('.widget-toggle').removeClass('widget-toggle');
-		window.parent.$('.chatbot-icon').show();
-	});
-	
 	//TODO
 	$("#input").on("keyup",function() {
 	  $("#input_h").val($(this).val());
 	});
 });
-var recognition;
+
 var feedbackBtnFlag;
 function sendAutomaticMessage(){
 	send("feedback_get");
@@ -70,47 +45,9 @@ function sendMessage(){
 	}else
 		console.log("Empty Message");
 }
-function startRecognition() {
-	recognition = new webkitSpeechRecognition();
-	recognition.onstart = function(event) {
-		updateRec();
-	};
-	recognition.onresult = function(event) {
-		var text = "";
-		for (var i = event.resultIndex; i < event.results.length; ++i) {
-			text += event.results[i][0].transcript;
-		}
-		setInput(text);
-		stopRecognition();
-	};
-	recognition.onend = function() {
-		stopRecognition();
-	};
-	recognition.lang = "en-US";
-	recognition.start();
-	$('#rec').html('<i class="fa fa-microphone" aria-hidden="true"></i>');
-}
-
-function stopRecognition() {
-	if (recognition) {
-		recognition.stop();
-		recognition = null;
-	}
-	updateRec();
-}
-function switchRecognition() {
-	if (recognition) {
-		stopRecognition();
-	} else {
-		startRecognition();
-	}
-}
 function setInput(text) {
 	$("#input").val(text);
 	send($("#input").val());
-}
-function updateRec() {
-	$("#rec").html(recognition ? "Stop" : '<i class="fa fa-microphone" aria-hidden="true"></i>');	
 }
 function getResponse(o){
 	debugger;
@@ -122,32 +59,68 @@ function getResponse(o){
 	//send($(query);
 }
 
+// function send(text) {
+	// if(!isEmptyString(text)){
+		// $.ajax({
+			// type: "POST",
+			// url: BASE_URL + "query?v=20150910",
+			// contentType: "application/json; charset=utf-8",
+			// dataType: "json",
+			// headers: {
+				// "Authorization": "Bearer " + ACCESS_TOKEN
+			// },
+			// data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
+			// beforeSend: function() {  
+				// $('#loader').css('display','inline-block');
+			// },
+			// success: function(data) {
+				// var msg = data.result.fulfillment.speech;
+				// var msgData = data.result.fulfillment.messages;
+				// var html = '';
+				// getHtml(msgData,function(data){
+					// html = data;
+				// });
+				// chat.push({"user" : text,"bot" : data.result.fulfillment.messages,"tm" : new Date()});
+				// //saveChat({"data" : chat,"id" : "1203"});
+				// conversation.push(html);
+				// setResponse(JSON.stringify(msg, undefined, 2));
+				// $('#loader').hide();
+			// },
+			// error: function() {
+				// setResponse("Internal Server Error");
+			// }
+		// });
+		// setResponse("Loading...");
+	// }
+// }
+
 function send(text) {
+	logChat('user',text);
 	if(!isEmptyString(text)){
 		$.ajax({
-			type: "POST",
-			url: BASE_URL + "query?v=20150910",
-			contentType: "application/json; charset=utf-8",
+			type: "GET",
+			url: BASE_URL2 +text,
+			//contentType: "application/json; charset=utf-8",
 			dataType: "json",
-			headers: {
-				"Authorization": "Bearer " + ACCESS_TOKEN
-			},
-			data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
 			beforeSend: function() {  
 				$('#loader').css('display','inline-block');
 			},
 			success: function(data) {
-				var msg = data.result.fulfillment.speech;
-				var msgData = data.result.fulfillment.messages;
-				var html = '';
-				getHtml(msgData,function(data){
-					html = data;
-				});
-				chat.push({"user" : text,"bot" : data.result.fulfillment.messages,"tm" : new Date()});
-				//saveChat({"data" : chat,"id" : "1203"});
-				conversation.push(html);
-				setResponse(JSON.stringify(msg, undefined, 2));
-				$('#loader').hide();
+				var intent = data.intent.name;
+				$.ajax({
+					type: "POST",
+					url: BASE_URL1,
+					contentType: "application/json; charset=utf-8",
+					dataType: "json",
+					data: JSON.stringify({ intent: intent}),
+					success: function(result) {
+						speak(result.response);
+						conversation.push(getBotResponseAsHTML(result.response));
+						setResponse();
+						$('#loader').hide();
+						logChat('picasi',result.response);
+					}
+				})
 			},
 			error: function() {
 				setResponse("Internal Server Error");
@@ -162,7 +135,7 @@ function setResponse() {
 	if(feedbackBtnFlag) {
 		$('#feedback-btn').attr('disabled',true);
 	}
-	$('#response').scrollTop($('#response')[0].scrollHeight)
+	$('#response').scrollTop($('#response')[0].scrollHeight);
 	// rating
 	if(!isRated) {
 		$( '.rating_c' ).ratingbar().click(function() {
@@ -241,7 +214,7 @@ function getBotResponseAsHTML(msg){
 									msg +
 						" </div>" +
 						" <div class='col-xs-2 p-l-0 p-r-0'> "+
-							" <img src='"+BOT_ICON+"' class='img-responsive pull-right' alt='Bot' /> " +
+							"<a href='#modal1' class='modal-trigger'> <img src='"+BOT_ICON+"' class=' img-responsive pull-right' alt='Bot' /></a> " +
 						" </div> "+
 					" </div>";
 }
@@ -250,7 +223,7 @@ function getBotResponseAsHTML(msg){
 function getUserResponseAsHTML(msg){
 	return "<div class='custom-msg-wrapper'> "+
 				"<div class='col-xs-2 p-r-0 p-l-2'> " +
-					" <img src='"+USER_ICON+"' class='img-responsive pull-left' alt='User' /> "+ 
+					" <img   src='"+USER_ICON+"' class='img-responsive pull-left' alt='User' />"+ 
 				"</div> "+ 
 				"<div class='col-xs-10 p-l-0'> " +
 					"<span class='custom-text-wraper custom-response-user bg-tiffanyblue'> " 
@@ -274,4 +247,206 @@ getBotResponseAsHTML(
 	conversation.push(msg);
 	setResponse();
 	
+}
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+
+function chkusr(){
+	$.ajax({
+			type: "GET",
+			url: '/chkusr',
+			beforeSend: function() {  
+				$('#loader').css('display','inline-block');
+			}, 
+			success: function(data) {
+				if(data === '1'){
+					conversation.push(getBotResponseAsHTML((DEFAULT_WELCOME_MSG)));
+					speak(DEFAULT_WELCOME_MSG);
+					setResponse();
+					$('#loader').hide();
+				}else{
+					$('.custom-msg-writer').hide();
+					runRegistraionFlow();
+				}
+			},
+			error: function() {
+				setResponse("Internal Server Error");
+			}
+		});
+}
+chkusr();
+function runRegistraionFlow(){
+	conversation.push(getBotResponseAsHTML("<p>You seems  to be visting first time.</p><p>Please spare minute to provide your personal details</p>"));
+	setResponse();
+	setTimeout(function(){
+		conversation.push(getBotResponseAsHTML('  <div id="name-div" class="row">           <div class="input-field col s9">               <input id="name" type="text" class="validate" onkeydown = "checkName()">               <label for="name"  data-error="wrong" data-success="right">Name</label>           </div>           <div class="input-field col s3">               <button class="btn waves-effect waves-light disabled" id="name-btn" type="button" name="action" onClick = validate()>Go!</button>           </div>       </div>'));
+	setResponse();},1000);
+	$('#loader').hide();
+}
+var registrationData = {'name':'','gender':'','mobile':''};
+function registerUser(){
+	$.ajax({
+		type: "POST",
+		url: "/register",
+		contentType: "application/json; charset=utf-8",
+		dataType: "json",
+		data: JSON.stringify(registrationData),
+		beforeSend: function() {  
+				$('#loader').css('display','inline-block');
+		},
+		success: function(result) {
+			conversation.push(getBotResponseAsHTML('<p>Thanks alot for giving your time</p>'));
+			setResponse();
+			
+			setTimeout(function(){
+			conversation = [];
+			conversation.push(getBotResponseAsHTML((DEFAULT_WELCOME_MSG)));
+			setResponse();
+			$('.custom-msg-writer').show();},1000);
+			$('#loader').hide();
+		}
+	});
+}
+function validate(){
+	if($("#name").val()){
+		if($("#name").val().length > 0){
+			var curVal = $("#name").val();
+			conversation.pop();
+			conversation.push(getBotResponseAsHTML('<span> Name : '+curVal+'</span>'));			
+			conversation.push(getBotResponseAsHTML('<div class="row"><div class="input-field col s9 ">    <select id = "gender"><option value="-1" disabled selected></option>       <option value="1">Male</option>      <option value="2">Female</option></select>    <label>Gender</label> </div> <div class="input-field col s3">  <button class="btn waves-effect waves-light" id="gender-btn" type="button" name="action" onClick = validate()>Go!</button>           </div></div>'));
+			setResponse();
+			
+			$('select').formSelect();
+			$('#response').scrollTop($('#response')[0].scrollHeight);
+			registrationData.name = curVal;
+			return;
+		}
+		else{
+			 alert(" Please enter a valid name");
+			 return;
+		}
+	}
+	if($("#gender").val()){
+		if($('#gender option:selected').val() !== "-1"){
+			var curVal = $('#gender option:selected').text();
+			conversation.pop();
+			conversation.push(getBotResponseAsHTML('<span> Gender : '+curVal+'</span>'));			
+			conversation.push(getBotResponseAsHTML('  <div  class="row">           <div class="input-field col s9">               <input id="mobile" type="text" class="validate" onkeydown = "checkMobile()">               <label for="mobile" >Mobile</label>           </div>           <div class="input-field col s3">               <button class="btn waves-effect waves-light disabled" id="mobile-btn" type="button" name="action" onClick = validate()>Go!</button>           </div>       </div>'));
+			setResponse();
+			$('#response').scrollTop($('#response')[0].scrollHeight);
+			registrationData.gender = curVal;
+		}
+		else{
+			 alert(" Please select the geneder") 
+		}
+	}
+	if($("#mobile").val()){
+		if($('#mobile').val().length > 0 ){
+			var curVal = $('#mobile').val();
+			conversation.pop();
+			conversation.push(getBotResponseAsHTML('<span> Mobile : '+curVal+'</span>'));
+			setResponse();
+			$('#response').scrollTop($('#response')[0].scrollHeight);
+			registrationData.mobile = curVal;
+			registerUser();
+		}
+		else{
+			 alert(" Please enter a valid mobile");
+		}
+	}
+}
+function checkName() {
+	setTimeout(function(){
+	if($("#name").val().length == 0){
+		$('#name-btn').addClass('disabled');
+	}else{
+		$('#name-btn').removeClass('disabled');
+	}},100);
+};
+function checkMobile() {
+	setTimeout(function(){
+	
+	var IndNum = /^[0]?[789]\d{9}$/;
+	if(IndNum.test($('#mobile').val())){
+		$('#mobile-btn').removeClass('disabled');
+	}else{
+		$('#mobile-btn').addClass('disabled');
+	}},100);
+};
+var recognition;
+function startRecognition() {
+	recognition = new webkitSpeechRecognition();
+	recognition.onstart = function(event) {
+		updateRec();
+	};
+	recognition.onresult = function(event) {
+		var text = "";
+		for (var i = event.resultIndex; i < event.results.length; ++i) {
+			text += event.results[i][0].transcript;
+		}
+		setInput(text);
+		stopRecognition();
+	};
+	recognition.onend = function() {
+		stopRecognition();
+	};
+	recognition.lang = "en-US";
+	recognition.start();
+	$('#rec').html('<i class="fa fa-microphone" aria-hidden="true"></i>');
+}
+
+function stopRecognition() {
+	if (recognition) {
+		recognition.stop();
+		recognition = null;
+	}
+	updateRec();
+}
+function switchRecognition() {
+	if (recognition) {
+		stopRecognition();
+	} else {
+		startRecognition();
+	}
+}
+function setInput(text) {
+	$("#input").val(text);
+	$("#input_h").val(text);
+	sendMessage(text);
+}
+function updateRec() {
+	$("#rec").html(recognition ? "Stop" : '<i class="fa fa-microphone" aria-hidden="true"></i>');	
+}
+function getResponse(o){
+	debugger;
+	//o = JSON.parse(o
+	if(!$("#sendIcon").attr('disabled')) {
+		$("#input").val(o.text);
+		$("#input_h").val(o.value);
+	}
+	//send($(query);
+}
+var chatId = "";
+function logChat(sender,msg){
+$.ajax({
+		type: "POST",
+		url: "/log",
+		contentType: "application/json; charset=utf-8",
+		dataType: "json",
+		data: JSON.stringify({'sender':sender,'msg':msg,'chatId':chatId}),
+		success: function(result) {
+			console.log("chat with chatId = "+ result +" saved");
+
+				chatId = result;
+			
+		}
+	});
 }
