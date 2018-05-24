@@ -21,7 +21,7 @@ function initbot() {
 
 function hear(message){
 	if(!$('#main-div-wrapper').hasClass('widget-toggle')){
-		$('#main-div-wrapper').toggleClass('widget-toggle');	
+		$('#main-div-wrapper').toggleClass('widget-toggle');
 	}
 	if($('.chatbot-icon').is(":visible")){
 		$('.chatbot-icon').hide();
@@ -41,3 +41,6 @@ $(document).ready(function(){
 		$('.chatbot-icon').show();
 	});
 });
+function register(projectId){
+	document.getElementById('chatbot-frame').contentWindow.postMessage({'data':{projectId  : projectId},'method':'register'},"*");
+}

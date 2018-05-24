@@ -4,6 +4,7 @@ var USER_ICON = "/images/user-icon.png";
 var ACCESS_TOKEN = "212103e00ea54783ae97206ead265744";
 var BASE_URL = "https://api.api.ai/v1/";
 var automatedReplyGenerated = false;
+var _projectId =  '';
 
 //response types
 var BUTTON = 'button';
@@ -251,9 +252,11 @@ function isEmptyString(str){
 window.addEventListener("message", messageHandler, false);
 
 function messageHandler(event){
-	if(event.data&& event.data.method === 'hear'){
-		if(event.data.message){
+	if(event.data){
+		if(event.data.method === 'hear'){
 			hear(event.data.message);
+		}if(event.data.method === 'register'){
+				register(event.data.data.projectId);
 		}
 	}
 }
@@ -263,7 +266,6 @@ function hear(message){
 	conversation.push(msg);
 	setResponse();
 }
-function chkusr(){
-	
+function register(projectId){
+	_projectId = projectId
 }
-
