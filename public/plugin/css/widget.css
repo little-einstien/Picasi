@@ -6,11 +6,11 @@
 	width: 100%;
 	max-width: 400px;
 	margin-right:10px;
-	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); /*background for chat window*/
+	/* background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
 }
 
 #main-div-wrapper.widget-toggle {
-	height: 420px !important;
+	height: 540px !important;
 } 
 
 .chatbot-icon {

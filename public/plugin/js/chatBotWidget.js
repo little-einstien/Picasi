@@ -1,10 +1,11 @@
-var APP_URL = "https://demochatbot.herokuapp.com";
+// var APP_URL = "https://demochatbot.herokuapp.com";
+var APP_URL = "http://localhost:3000";
 function initbot() {
 	$('head').append('<link rel="stylesheet" type="text/css" href="'+APP_URL+'/plugin/css/widget.css">');
 	$("body").append('<div id="main-div-wrapper"><div id="close-icon"><i class="far fa-times-circle"></i></div></div>');
 
 	var ifrm = document.createElement("iframe");
-    ifrm.setAttribute("src", ""+APP_URL+"/chatbot");
+    ifrm.setAttribute("src", "http://localhost:4200/project/MNP52wF");
     ifrm.style.width = "100%";
 	ifrm.style.height = "100%";
     ifrm.style.border = "0px";
@@ -15,9 +16,9 @@ function initbot() {
     createDiv.id = 'chatboticon'
     createDiv.innerHTML = '<img src="'+APP_URL+'/plugin/images/chatbot.svg" alt="ChatBot" />';
     document.body.appendChild(createDiv);
-	setTimeout(function(){	$('#main-div-wrapper').toggleClass('widget-toggle');
-    $('#chatboticon').hide();
- }, 2000);
+// 	setTimeout(function(){	$('#main-div-wrapper').toggleClass('widget-toggle');
+//     $('#chatboticon').hide();
+//  }, 2000);
 }
 initbot();
 $('.chatbot-icon').click(function(){

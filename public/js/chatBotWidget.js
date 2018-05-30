@@ -3,7 +3,7 @@ function initbot() {
 	$("body").append('<div id="main-div-wrapper"><div id="close-icon"><i class="far fa-times-circle"></i></div></div>');
 
 	var ifrm = document.createElement("iframe");
-    ifrm.setAttribute("src", "http://localhost:3000/chatbot");
+    ifrm.setAttribute("src", "http://localhost:4200/project/MNP52wF");
     ifrm.style.width = "100%";
 	ifrm.style.height = "100%";
     ifrm.style.border = "0px";
