@@ -130,7 +130,7 @@ router.post('/createproject', function (req, res, next) {
     dbo.collection("project").insertOne(project, function (err, result) {
       if (err) throw err;
       res.send(result);
-      mkDirByPathSync(CHATBOT_DATA_DIR + '\\' + project.id);
+      mkDirByPathSync(CHATBOT_DATA_DIR + '/' + project.id);
       db.close();
     });
   });
@@ -496,7 +496,7 @@ function getLoggedinUsername(cookie) {
 function mkDirByPathSync(targetDir, { isRelativeToScript = false } = {}) {
   const sep = path.sep;
   const initDir = path.isAbsolute(targetDir) ? sep : '';
-  const baseDir = 'F:/';
+  const baseDir = '/home/g101demoid/Arnav';
   console.log(targetDir.split(sep));
   targetDir.split(sep).reduce((parentDir, childDir) => {
     const curDir = path.resolve(baseDir, parentDir, childDir);
