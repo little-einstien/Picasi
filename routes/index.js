@@ -129,7 +129,7 @@ router.post('/createproject', function (req, res, next) {
     //Find the first document in the customers collection:
     dbo.collection("project").insertOne(project, function (err, result) {
       if (err) throw err;
-      res.send(result);
+      res.send({'pid':project.id});
       mkDirByPathSync(CHATBOT_DATA_DIR + '\\' + project.id);
       db.close();
     });

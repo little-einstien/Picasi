@@ -1,11 +1,12 @@
 // var APP_URL = "https://demochatbot.herokuapp.com";
 var APP_URL = "http://localhost:3000";
 function initbot() {
+    var pid = $('#bot-script').attr('data-project');
 	$('head').append('<link rel="stylesheet" type="text/css" href="'+APP_URL+'/plugin/css/widget.css">');
-	$("body").append('<div id="main-div-wrapper"><div id="close-icon"><i class="far fa-times-circle"></i></div></div>');
+	$("body").append('<div id="main-div-wrapper"></div>');
 
 	var ifrm = document.createElement("iframe");
-    ifrm.setAttribute("src", "http://localhost:4200/project/MNP52wF");
+    ifrm.setAttribute("src", "http://localhost:4200/project/"+pid);
     ifrm.style.width = "100%";
 	ifrm.style.height = "100%";
     ifrm.style.border = "0px";
@@ -21,15 +22,15 @@ function initbot() {
 //  }, 2000);
 }
 initbot();
+
 $('.chatbot-icon').click(function(){
 	$('#main-div-wrapper').toggleClass('widget-toggle');
     $(this).hide();
 });
-$('#close-icon i').click(function(){
+function close(){
 	$('#main-div-wrapper').removeClass('widget-toggle');
 	$('.chatbot-icon').show();
-});
-
+};
 function eventFire(el, etype){
   if (el.fireEvent) {
     el.fireEvent('on' + etype);
@@ -39,3 +40,9 @@ function eventFire(el, etype){
     el.dispatchEvent(evObj);
   }
 }
+window.addEventListener('close',function(){
+    alert();
+});
+window.addEventListener('message', function(e) {
+    close()
+  });

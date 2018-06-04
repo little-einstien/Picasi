@@ -318,3 +318,10 @@ body {
 .custom-msg-writer fieldset[disabled] .form-control {
     background: #fff;
 }
+
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
