@@ -496,7 +496,7 @@ function getLoggedinUsername(cookie) {
 function mkDirByPathSync(targetDir, { isRelativeToScript = false } = {}) {
   const sep = path.sep;
   const initDir = path.isAbsolute(targetDir) ? sep : '';
-  const baseDir = 'F:/';
+  const baseDir = '/home/g101demoid/Arnav';
   console.log(targetDir.split(sep));
   targetDir.split(sep).reduce((parentDir, childDir) => {
     const curDir = path.resolve(baseDir, parentDir, childDir);
