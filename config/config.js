@@ -11,6 +11,7 @@ config.mongo.url  = 'mongodb://localhost:27017/';
 config.mongo.port  = '27017';
 config.mongo.db  = DB;
 config.mongo.training_data_col  = 'training_data_';
+config.mongo.training_flow_col  = 'training_flow';
 config.mongo.project_col  = 'project';
 
 

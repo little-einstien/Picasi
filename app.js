@@ -9,6 +9,7 @@ var index = require('./routes/index');
 var projects = require('./routes/projects');
 var intents = require('./routes/intents');
 var users = require('./routes/users');
+var flows = require('./routes/flows');
 var cors = require('cors');
 var mongo = require('./app/mongo');
 var config = require('./config/config');
@@ -32,6 +33,7 @@ app.use('/', index);
 app.use('/users', users);
 app.use('/api/projects', projects);
 app.use('/api/intents', intents);
+app.use('/api/flows', flows);
  
 
 
