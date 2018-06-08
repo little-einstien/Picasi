@@ -15,7 +15,8 @@ const enc = require('../app/enc');
 
 const schema = Joi.object().keys({
     pid: Joi.string().max(150).required(),
-    flow:Joi.object().required()
+    flow:Joi.object().required(),
+    sp:Joi.string().required()
 })
 
 /**
@@ -43,14 +44,15 @@ router.get('/:pid/:nid', function (req, res) {
 router.post('/', function (req, res) {
     //validate param
 
-    let validationResult = validateFlow(req.body);
-    if (validationResult.error) {
-         return res.status(400).send(validationResult.error.details[0].message);
-    }
+    // let validationResult = validateFlow(req.body);
+    // if (validationResult.error) {
+    //      return res.status(400).send(validationResult.error.details[0].message);
+    // }
 
     //create new project
     let flow = {$set:{}};
     flow.$set.pid = req.body.pid;
+    flow.$set.sp = req.body.sp;
     flow.$set.status = 1;
     flow.$set.flow = req.body.flow;
     
