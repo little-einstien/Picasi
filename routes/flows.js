@@ -15,88 +15,69 @@ const enc = require('../app/enc');
 
 const schema = Joi.object().keys({
     pid: Joi.string().max(150).required(),
-    flow:Joi.object().required(),
-    sp:Joi.string().required()
+    flow: Joi.object().required(),
+    sp: Joi.string().required()
 })
 
 /**
  * Get all projects
  */
 router.get('/:pid', function (req, res) {
-    let  pid = req.params.pid;
-    findFow({"pid": pid}).then((projects) => {
+    let pid = req.params.pid;
+    findFow({ "pid": pid }).then((projects) => {
         res.json(projects);
     });
 });
 /**
- * Get Project with specified id
- */
-router.get('/:pid/:nid', function (req, res) {
-    //validate id exists or not
-    params = { id: req.params.id };
-    findFow(params).then((projects) => {
-        res.json(projects);
-    });
-});
-/**
- * Create new project
+ * Create new flow
  */
 router.post('/', function (req, res) {
     //validate param
 
-    // let validationResult = validateFlow(req.body);
-    // if (validationResult.error) {
-    //      return res.status(400).send(validationResult.error.details[0].message);
-    // }
-
-    //create new project
-    let flow = {$set:{}};
-    flow.$set.pid = req.body.pid;
-    flow.$set.sp = req.body.sp;
-    flow.$set.status = 1;
-    flow.$set.flow = req.body.flow;
-    
-    let params = { pid : req.body.pid};
-    console.log(params);
-    saveFlow(params,flow).then((result) => {
-        return res.send(result);
-    });
-});
-router.put('/:id', function (req, res) {
-    console.log(req.body);
-    //validate param
     let validationResult = validateFlow(req.body);
     if (validationResult.error) {
-        console.log(validationResult)
         return res.status(400).send(validationResult.error.details[0].message);
     }
 
     //create new project
-    let id = req.params.id;
-    // let name_regex = new RegExp(`^${name}\$`, 'i');
-    let params = {};
-    params.id = id;
-    let project = {};
-    project.name = req.body.name;
-    project.tts = req.body.tts;
-    project.stt = req.body.stt;
+    let flow = { $set: {} };
+    flow.$set.pid = req.body.pid;
+    flow.$set.sp = req.body.sp;
+    flow.$set.status = 1;
+    flow.$set.flow = req.body.flow;
 
-    // project.id = enc.generateHash(project.name);
+    let params = { pid: req.body.pid };
     console.log(params);
-    findFow(params).then((result) => {
-        if (result.status == FAILURE) {
-           return res.status(404).send(`Project does not exists with id ${params.id} `)
-        } else {
-            saveProject({$set:project}, params).then((result) => {
-                return res.send(project);
-            });
+    saveFlow(params, flow).then((result) => {
+        return res.send(result);
+    });
+});
+router.put('/:pid', function (req, res) {
+    let pid = req.params.pid;
+    findFow({ "pid": pid }).then((result) => {
+        if(result.status == FAILURE){
+        return res.status(404).send('Project not exist');
         }
     });
 
-    //validate params
+    //validate param
+    let validationResult = validateFlow(req.body);
+    if (validationResult.error) {
+        return res.status(400).send(validationResult.error.details[0].message);
+    }
 
-    //update
-    // res.send(`project with id = ${req.params.id} updated`);
+    //create new project
+    let flow = { $set: {} };
+    flow.$set.pid = pid;
+    flow.$set.sp = req.body.sp;
+    flow.$set.status = 1;
+    flow.$set.flow = req.body.flow;
+
+    let params = { pid: req.body.pid };
+    console.log(params);
+    saveFlow(params, flow).then((result) => {
+        return res.send(result);
+    });
 });
 
 router.delete('/:id', function (req, res) {
@@ -123,9 +104,9 @@ router.delete('/:id', function (req, res) {
     console.log(params);
     findFow(params).then((result) => {
         if (result.status == FAILURE) {
-           return res.status(404).send(`Project does not exists with id ${params.id} `)
+            return res.status(404).send(`Project does not exists with id ${params.id} `)
         } else {
-            saveProject({$set:project}, params).then((result) => {
+            saveProject({ $set: project }, params).then((result) => {
                 return res.send(project);
             });
         }
@@ -137,7 +118,7 @@ router.delete('/:id', function (req, res) {
 
 
 function findFow(params) {
-     console.log(`checking flow of project = ${params.pid}`);
+    console.log(`checking flow of project = ${params.pid}`);
 
     return new Promise(function (resolve, reject) {
         let where = {};

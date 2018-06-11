@@ -15,8 +15,15 @@ const enc = require('../app/enc');
 
 const schema = Joi.object().keys({
     name: Joi.string().max(150).required(),
+    status:Joi.number().optional(),
+    id:Joi.string().allow('').optional(),
     tts: Joi.boolean().required(),
-    stt: Joi.boolean().required()
+    stt: Joi.boolean().required(),
+    h_clr:Joi.string().required(),
+    bg_clr:Joi.string().required(),
+    ucb_clr:Joi.string().required(),
+    bcb_clr:Joi.string().required(),
+    header:Joi.string().max(50).required()
 })
 
 /**
@@ -30,9 +37,10 @@ router.get('/', function (req, res) {
 /**
  * Get Project with specified id
  */
-router.get('/:id', function (req, res) {
+router.get('/:param', function (req, res) {
     //validate id exists or not
-    params = { id: req.params.id };
+    let name_regex = new RegExp(`^${req.params.param}\$`, 'i');
+    params = { $or: [{ id: req.params.param }, { name: name_regex }] };
     findProjectById(params).then((projects) => {
         res.json(projects);
     });
@@ -56,6 +64,11 @@ router.post('/', function (req, res) {
     project.name = req.body.name;
     project.tts = req.body.tts;
     project.stt = req.body.stt;
+    project.bg_clr = req.body.bg_clr;
+    project.h_clr = req.body.h_clr;
+    project.ucb_clr = req.body.ucb_clr;
+    project.bcb_clr = req.body.bcb_clr;
+    project.header = req.body.header;
     project.id = enc.generateHash(project.name);
     console.log(params);
     findProjectById(params).then((result) => {
@@ -87,14 +100,19 @@ router.put('/:id', function (req, res) {
     project.name = req.body.name;
     project.tts = req.body.tts;
     project.stt = req.body.stt;
+    project.bg_clr = req.body.bg_clr;
+    project.h_clr = req.body.h_clr;
+    project.ucb_clr = req.body.ucb_clr;
+    project.bcb_clr = req.body.bcb_clr;
+    project.header = req.body.header;
 
     // project.id = enc.generateHash(project.name);
     console.log(params);
     findProjectById(params).then((result) => {
         if (result.status == FAILURE) {
-           return res.status(404).send(`Project does not exists with id ${params.id} `)
+            return res.status(404).send(`Project does not exists with id ${params.id} `)
         } else {
-            saveProject({$set:project}, params).then((result) => {
+            saveProject({ $set: project }, params).then((result) => {
                 return res.send(project);
             });
         }
@@ -130,9 +148,9 @@ router.delete('/:id', function (req, res) {
     console.log(params);
     findProjectById(params).then((result) => {
         if (result.status == FAILURE) {
-           return res.status(404).send(`Project does not exists with id ${params.id} `)
+            return res.status(404).send(`Project does not exists with id ${params.id} `)
         } else {
-            saveProject({$set:project}, params).then((result) => {
+            saveProject({ $set: project }, params).then((result) => {
                 return res.send(project);
             });
         }
@@ -152,7 +170,7 @@ function findProjectById(params) {
         }
         console.log(config.mongo.db);
 
-        mongodb.get().db(config.mongo.db).collection(config.mongo.project_col).find(params).toArray(function (err, result) {
+        mongodb.get().db(config.mongo.db).collection(config.mongo.project_col).find(params,{fields:{_id: 0,u_name:0,updated_tm:0,created_date:0,updated_date:0}}).toArray(function (err, result) {
             console.log(result);
             if (err) {
                 console.log(err);
