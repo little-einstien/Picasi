@@ -13,9 +13,26 @@ config.mongo.db  = DB;
 config.mongo.training_data_col  = 'training_data_';
 config.mongo.training_flow_col  = 'training_flow';
 config.mongo.project_col  = 'project';
+config.mongo.appointment_col  = 'appointments';
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // config.default_stuff =  ['red','green','blue','apple','yellow','orange','politics'];
+
+
+
+
 // config.twitter.user_name = process.env.TWITTER_USER || 'username';
 // config.twitter.password=  process.env.TWITTER_PASSWORD || 'password';
 // config.redis.uri = process.env.DUOSTACK_DB_REDIS;

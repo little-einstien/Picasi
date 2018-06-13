@@ -10,6 +10,7 @@ var projects = require('./routes/projects');
 var intents = require('./routes/intents');
 var users = require('./routes/users');
 var flows = require('./routes/flows');
+var appointments = require('./routes/appointments')
 var cors = require('cors');
 var mongo = require('./app/mongo');
 var config = require('./config/config');
@@ -34,7 +35,10 @@ app.use('/users', users);
 app.use('/api/projects', projects);
 app.use('/api/intents', intents);
 app.use('/api/flows', flows);
+app.use('/api/appointments', appointments);
  
+ 
+
 
 
 // catch 404 and forward to error handler

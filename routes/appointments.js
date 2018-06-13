@@ -14,34 +14,36 @@ const Joi = require('joi');
 const enc = require('../app/enc');
 
 const schema = Joi.object().keys({
-    name: Joi.string().max(150).required(),
-    status:Joi.number().optional(),
-    id:Joi.string().allow('').optional(),
-    tts: Joi.boolean().required(),
-    stt: Joi.boolean().required(),
-    h_clr:Joi.string().required(),
-    bg_clr:Joi.string().required(),
-    ucb_clr:Joi.string().required(),
-    bcb_clr:Joi.string().required(),
-    header:Joi.string().max(50).required()
-})
+
+    title: Joi.string().max(150).required(),
+    st: Joi.date().required(),
+    et: Joi.date().required(),
+    remarks: Joi.string().required(),
+    pid: Joi.string().required(),
+    ap_with: Joi.string().required(),
+    user: Joi.object().keys({ id: Joi.string().required(), name: Joi.string().required() }).required()
+});
 
 /**
  * Get all projects
  */
 router.get('/', function (req, res) {
-    findProjectById().then((projects) => {
+    getAppointments().then((projects) => {
         res.json(projects);
     });
 });
 /**
  * Get Project with specified id
  */
-router.get('/:param', function (req, res) {
-    //validate id exists or not
-    let name_regex = new RegExp(`^${req.params.param}\$`, 'i');
-    params = { $or: [{ id: req.params.param }, { name: name_regex }] };
-    findProjectById(params).then((projects) => {
+router.get('/:pid', function (req, res) {
+    let params = {};
+    let pid = req.params.pid;
+    params.pid = pid;
+    if(req.query.uid){
+        params['user.id'] = req.query.uid;
+    }
+    console.log(params);
+    getAppointments(params).then((projects) => {
         res.json(projects);
     });
 });
@@ -57,30 +59,31 @@ router.post('/', function (req, res) {
     }
 
     //create new project
-    let name = req.body.name.trim();
-    let name_regex = new RegExp(`^${name}\$`, 'i');
-    let params = { name: name_regex };
-    let project = {};
-    project.name = req.body.name;
-    project.tts = req.body.tts;
-    project.stt = req.body.stt;
-    project.bg_clr = req.body.bg_clr;
-    project.h_clr = req.body.h_clr;
-    project.ucb_clr = req.body.ucb_clr;
-    project.bcb_clr = req.body.bcb_clr;
-    project.header = req.body.header;
-    project.id = enc.generateHash(project.name);
-    console.log(params);
-    findProjectById(params).then((result) => {
-        if (result.status == FAILURE) {
-            createProject(project).then((project) => {
-                return res.send(project);
-            });
-        } else {
-            // if project allready created discard the request
-            return res.status(400).send('project allready there !');
-        }
+
+    let appointment = { user: {} };
+    appointment.title = req.body.title;
+    appointment.remarks = req.body.remarks;
+    appointment.st = req.body.st;
+    appointment.et = req.body.et;
+    appointment.pid = req.body.pid;
+    appointment.ap_with = req.body.ap_with;
+    appointment.c_dt = new Date();
+    appointment.u_dt = new Date();
+    appointment.user.id = req.body.user.id;
+    appointment.user.name = req.body.user.name;
+    createAppointment(appointment).then((appointment) => {
+        return res.send(appointment);
     });
+    // findProjectById(params).then((result) => {
+    //     if (result.status == FAILURE) {
+    //         createProject(appointment).then((project) => {
+    //             return res.send(project);
+    //         });
+    //     } else {
+    //         // if project allready created discard the request
+    //         return res.status(400).send('project allready there !');
+    //     }
+    // });
 });
 router.put('/:id', function (req, res) {
     console.log(req.body);
@@ -94,30 +97,33 @@ router.put('/:id', function (req, res) {
     //create new project
     let id = req.params.id;
     // let name_regex = new RegExp(`^${name}\$`, 'i');
-    let params = {};
-    params.id = id;
-    let project = {};
-    project.name = req.body.name;
-    project.tts = req.body.tts;
-    project.stt = req.body.stt;
-    project.bg_clr = req.body.bg_clr;
-    project.h_clr = req.body.h_clr;
-    project.ucb_clr = req.body.ucb_clr;
-    project.bcb_clr = req.body.bcb_clr;
-    project.header = req.body.header;
+
+
+    let appointment = { user: {} };
+    appointment.title = req.body.title;
+    appointment.remarks = req.body.remarks;
+    appointment.st = req.body.st;
+    appointment.et = req.body.et;
+    appointment.pid = req.body.pid;
+    appointment.c_dt = new Date();
+    appointment.u_dt = new Date();
+    appointment.user.id = req.body.user.id;
+    appointment.user.name = req.body.user.name;
 
     // project.id = enc.generateHash(project.name);
-    console.log(params);
-    findProjectById(params).then((result) => {
-        if (result.status == FAILURE) {
-            return res.status(404).send(`Project does not exists with id ${params.id} `)
-        } else {
-            saveProject({ $set: project }, params).then((result) => {
-                return res.send(project);
-            });
-        }
+    // console.log(params);
+    // findProjectById(params).then((result) => {
+    //     if (result.status == FAILURE) {
+    //         return res.status(404).send(`Project does not exists with id ${params.id} `)
+    //     } else {
+    //         saveProject({ $set: project }, params).then((result) => {
+    //             return res.send(project);
+    //         });
+    //     }
+    // });
+    updateAppointment({},appointment).then((appointment) => {
+        return res.send(appointment);
     });
-
     //validate params
 
     //update
@@ -146,7 +152,7 @@ router.delete('/:id', function (req, res) {
 
     // project.id = enc.generateHash(project.name);
     console.log(params);
-    findProjectById(params).then((result) => {
+    getAppointments(params).then((result) => {
         if (result.status == FAILURE) {
             return res.status(404).send(`Project does not exists with id ${params.id} `)
         } else {
@@ -161,16 +167,16 @@ router.delete('/:id', function (req, res) {
 
 
 
-function findProjectById(params) {
+function getAppointments(where) {
     // console.log(`checking project with id = ${params}`);
     return new Promise(function (resolve, reject) {
-        let where = {};
-        if (params) {
-            params.status = 1;
-        }
+        // let where = {};
+        // if (params) {
+        //     params.status = 1;
+        // }
         console.log(config.mongo.db);
 
-        mongodb.get().db(config.mongo.db).collection(config.mongo.project_col).find(params,{fields:{_id: 0,u_name:0,updated_tm:0,created_date:0,updated_date:0,status:0}}).toArray(function (err, result) {
+        mongodb.get().db(config.mongo.db).collection(config.mongo.appointment_col).find(where, { fields: { st: 1, et: 1, title: 1, remarks:1,user:1 } }).toArray(function (err, result) {
             console.log(result);
             if (err) {
                 console.log(err);
@@ -189,43 +195,34 @@ function validateProject(project) {
     return Joi.validate(project, schema);
 }
 
-function createProject(project) {
-    project.created_date = new Date();
-    project.updated_date = new Date();
-    project.status = 1;
+function createAppointment(appointment) {
     return new Promise(function (resolve, reject) {
         let db = mongodb.get().db(config.mongo.db);
         //Find the first document in the customers collection:
-        db.collection(config.mongo.project_col).insertOne(project, function (err, result) {
+        db.collection(config.mongo.appointment_col).insertOne(appointment, function (err, result) {
             if (err) {
                 throw err;
-                reject({ status: FAILURE })
+                reject(appointment)
             } else {
-                resolve({ status: SUCCESS });
-                mkDirByPathSync(`${CHATBOT_DATA_DIR}\\${project.id}`);
+                resolve(appointment);
             }
         });
     });
 }
-function mkDirByPathSync(targetDir, { isRelativeToScript = false } = {}) {
-    const sep = path.sep;
-    const initDir = path.isAbsolute(targetDir) ? sep : '';
-    const baseDir = 'F:/';
-    console.log(targetDir.split(sep));
-    targetDir.split(sep).reduce((parentDir, childDir) => {
-        const curDir = path.resolve(baseDir, parentDir, childDir);
-        try {
-            fs.mkdirSync(curDir);
-            console.log(`Directory ${curDir} created!`);
-        } catch (err) {
-            if (err.code !== 'EEXIST') {
-                throw err;
-            }
-            console.log(`Directory ${curDir} already exists!`);
-        }
 
-        return curDir;
-    }, initDir);
+function updateAppointment(params, appointment) {
+    return new Promise(function (resolve, reject) {
+        let db = mongodb.get().db(config.mongo.db);
+        //Find the first document in the customers collection:
+        db.collection(config.mongo.appointment_col).update(params, appointment, function (err, result) {
+            if (err) {
+                throw err;
+                reject(appointment)
+            } else {
+                resolve(appointment);
+            }
+        });
+    });
 }
 
 function saveProject(project, where) {
