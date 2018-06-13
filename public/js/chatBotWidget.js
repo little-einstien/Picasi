@@ -12,7 +12,7 @@ function initbot() {
     var createDiv =  document.createElement("div");
     createDiv.className = 'chatbot-icon'
     createDiv.id = 'chatboticon'
-    createDiv.innerHTML = '<img src="http://localhost:3000/plugin/images/chatbot.svg" alt="ChatBot" />';
+    createDiv.innerHTML = '<img src="http://35.200.142.0::3000/plugin/images/chatbot.svg" alt="ChatBot" />';
     document.body.appendChild(createDiv);
 	setTimeout(function(){	$('#main-div-wrapper').toggleClass('widget-toggle');
     $('#chatboticon').hide();
