@@ -3,7 +3,7 @@ const DB = 'chatbot_nlu_training';
 config.mongo = {};
 config.redis = {};
 config.web = {};
-
+config.auth = {};
 config.ENCRYPTION_KEY = 'aop3o9PqzJFWMxjyhA5MpqJs5rO63VUt' 
 
 config.mongo.ip  = '127.0.0.1';
@@ -14,7 +14,9 @@ config.mongo.training_data_col  = 'training_data_';
 config.mongo.training_flow_col  = 'training_flow';
 config.mongo.project_col  = 'project';
 config.mongo.appointment_col  = 'appointments';
-
+config.mongo.users_col  = 'users';
+config.mongo.slots_col  = 'slots';
+config.auth.skey = 'oiYXJuYXYiLCJleHAiOjE1Mjk2MTc3MzIsImlhdCI6MTUy'
 
 
 

@@ -31,7 +31,7 @@ router.get('/:pid', function (req, res) {
 /**
  * Create new flow
  */
-router.post('/', function (req, res) {
+router.post('/:pid', function (req, res) {
     //validate param
 
     let validationResult = validateFlow(req.body);
@@ -41,7 +41,7 @@ router.post('/', function (req, res) {
 
     //create new project
     let flow = { $set: {} };
-    flow.$set.pid = req.body.pid;
+    flow.$set.pid = req.params.pid;
     flow.$set.sp = req.body.sp;
     flow.$set.status = 1;
     flow.$set.flow = req.body.flow;
@@ -54,11 +54,11 @@ router.post('/', function (req, res) {
 });
 router.put('/:pid', function (req, res) {
     let pid = req.params.pid;
-    findFow({ "pid": pid }).then((result) => {
-        if(result.status == FAILURE){
-        return res.status(404).send('Project not exist');
-        }
-    });
+    // findFow({ "pid": pid }).then((result) => {
+    //     if(result.status == FAILURE){
+    //     return res.status(404).send('Project not exist');
+    //     }
+    // });
 
     //validate param
     let validationResult = validateFlow(req.body);

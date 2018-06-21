@@ -10,6 +10,7 @@ var projects = require('./routes/projects');
 var intents = require('./routes/intents');
 var users = require('./routes/users');
 var flows = require('./routes/flows');
+var slots = require('./routes/slots');
 var appointments = require('./routes/appointments')
 var cors = require('cors');
 var mongo = require('./app/mongo');
@@ -31,7 +32,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
+app.use('/api/users', users);
+app.use('/api/slots', slots);
 app.use('/api/projects', projects);
 app.use('/api/intents', intents);
 app.use('/api/flows', flows);

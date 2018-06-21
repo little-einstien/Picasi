@@ -85,11 +85,11 @@ router.post('/', function (req, res) {
 router.put('/:id', function (req, res) {
     console.log(req.body);
     //validate param
-    let validationResult = validateProject(req.body);
-    if (validationResult.error) {
-        console.log(validationResult)
-        return res.status(400).send(validationResult.error.details[0].message);
-    }
+    // let validationResult = validateProject(req.body);
+    // if (validationResult.error) {
+    //     console.log(validationResult)
+    //     return res.status(400).send(validationResult.error.details[0].message);
+    // }
 
     //create new project
     let id = req.params.id;
@@ -157,9 +157,6 @@ router.delete('/:id', function (req, res) {
     });
 
 });
-
-
-
 
 function findProjectById(params) {
     // console.log(`checking project with id = ${params}`);

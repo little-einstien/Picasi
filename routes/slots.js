@@ -12,7 +12,7 @@ const config = require('../config/config');
 var mongodb = require('../app/mongo');
 const Joi = require('joi');
 const enc = require('../app/enc');
-
+var jwt = require('jsonwebtoken');
 const schema = Joi.object().keys({
 
     title: Joi.string().max(150).required(),
@@ -24,32 +24,19 @@ const schema = Joi.object().keys({
     user: Joi.object().keys({ id: Joi.string().required(), name: Joi.string().required() }).required()
 });
 
-/**
- * Get all projects
- */
-router.get('/', function (req, res) {
-    getAppointments().then((projects) => {
-        res.json(projects);
-    });
-});
-/**
- * Get Project with specified id
- */
-router.get('/:pid', function (req, res) {
+router.get('/:token', function (req, res) {
     let params = {};
-    let pid = req.params.pid;
-    params.pid = pid;
-    if(req.query.uid){
-        params['user.id'] = req.query.uid;
-    }
-    console.log(params);
-    getAppointments(params).then((projects) => {
-        res.json(projects);
+    let token = req.params.token;
+    jwt.verify(token, config.auth.skey, function (err, decoded) {
+        if (err) {
+            return res.status(403).send(err);
+        }
+        getSlots(decoded.data).then((slots) => {
+            return res.json(slots);
+        });
     });
 });
-/**
- * Create new project
- */
+
 router.post('/', function (req, res) {
     //validate param
 
@@ -57,34 +44,21 @@ router.post('/', function (req, res) {
     // if (validationResult.error) {
     //     return res.status(400).send(validationResult.error.details[0].message);
     // }
-
-    //create new project
-
-    let appointment = { user: {} };
-    appointment.title = req.body.title;
-    appointment.remarks = req.body.remarks;
-    appointment.st = req.body.st;
-    appointment.et = req.body.et;
-    appointment.fields = req.body.details;
-    appointment.pid = req.body.pid;
-    appointment.ap_with = req.body.ap_with;
-    appointment.c_dt = new Date();
-    appointment.u_dt = new Date();
-    appointment.user.id = req.body.user.id;
-    appointment.user.name = req.body.user.name;
-    createAppointment(appointment).then((appointment) => {
-        return res.send(appointment);
+    console.log(req.body.token);
+    jwt.verify(req.body.token, config.auth.skey, function (err, decoded) {
+        if (err) {
+            return res.status(403).send(err);
+        }
+        let slots  = {};
+        slots.m_slt = req.body.m_slts;
+        slots.e_slt = req.body.e_slts;
+        slots.date = req.body.date;
+        slots.un = decoded.data;
+        
+        createSlots(slots).then((slots) => {
+            return res.send(slots);
+        });
     });
-    // findProjectById(params).then((result) => {
-    //     if (result.status == FAILURE) {
-    //         createProject(appointment).then((project) => {
-    //             return res.send(project);
-    //         });
-    //     } else {
-    //         // if project allready created discard the request
-    //         return res.status(400).send('project allready there !');
-    //     }
-    // });
 });
 router.put('/:id', function (req, res) {
     console.log(req.body);
@@ -123,7 +97,7 @@ router.put('/:id', function (req, res) {
     //         });
     //     }
     // });
-    updateAppointment({},appointment).then((appointment) => {
+    updateAppointment({}, appointment).then((appointment) => {
         return res.send(appointment);
     });
     //validate params
@@ -154,7 +128,7 @@ router.delete('/:id', function (req, res) {
 
     // project.id = enc.generateHash(project.name);
     console.log(params);
-    getAppointments(params).then((result) => {
+    getSlots(params).then((result) => {
         if (result.status == FAILURE) {
             return res.status(404).send(`Project does not exists with id ${params.id} `)
         } else {
@@ -166,7 +140,7 @@ router.delete('/:id', function (req, res) {
 
 });
 
-function getAppointments(where) {
+function getSlots(username) {
     // console.log(`checking project with id = ${params}`);
     return new Promise(function (resolve, reject) {
         // let where = {};
@@ -174,8 +148,7 @@ function getAppointments(where) {
         //     params.status = 1;
         // }
         console.log(config.mongo.db);
-
-        mongodb.get().db(config.mongo.db).collection(config.mongo.appointment_col).find(where, { fields: { st: 1, et: 1, title: 1, remarks:1,user:1,fields:1 } }).toArray(function (err, result) {
+        mongodb.get().db(config.mongo.db).collection(config.mongo.slots_col).find({ un: username }).toArray(function (err, result) {
             console.log(result);
             if (err) {
                 console.log(err);
@@ -194,16 +167,16 @@ function validateProject(project) {
     return Joi.validate(project, schema);
 }
 
-function createAppointment(appointment) {
+function createSlots(slots) {
     return new Promise(function (resolve, reject) {
         let db = mongodb.get().db(config.mongo.db);
         //Find the first document in the customers collection:
-        db.collection(config.mongo.appointment_col).insertOne(appointment, function (err, result) {
+        db.collection(config.mongo.slots_col).insertOne(slots, function (err, result) {
             if (err) {
+                reject(slots)
                 throw err;
-                reject(appointment)
             } else {
-                resolve(appointment);
+                resolve(slots);
             }
         });
     });
