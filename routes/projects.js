@@ -207,7 +207,8 @@ function createProject(project) {
 function mkDirByPathSync(targetDir, { isRelativeToScript = false } = {}) {
     const sep = path.sep;
     const initDir = path.isAbsolute(targetDir) ? sep : '';
-    const baseDir = 'F:/';
+//     const baseDir = 'F:/';
+    const baseDir = '/home/einstien0001/Arnav/NLU_backend';
     console.log(targetDir.split(sep));
     targetDir.split(sep).reduce((parentDir, childDir) => {
         const curDir = path.resolve(baseDir, parentDir, childDir);
