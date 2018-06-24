@@ -199,7 +199,7 @@ function createProject(project) {
                 reject({ status: FAILURE })
             } else {
                 resolve({ status: SUCCESS });
-                mkDirByPathSync(`${CHATBOT_DATA_DIR}\\${project.id}`);
+                mkDirByPathSync(`${CHATBOT_DATA_DIR}/${project.id}`);
             }
         });
     });
