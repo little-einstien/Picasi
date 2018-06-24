@@ -12,6 +12,7 @@ const config = require('../config/config');
 var mongodb = require('../app/mongo');
 const Joi = require('joi');
 const enc = require('../app/enc');
+const nodemailer = require('nodemailer');
 
 const schema = Joi.object().keys({
 
@@ -39,7 +40,7 @@ router.get('/:pid', function (req, res) {
     let params = {};
     let pid = req.params.pid;
     params.pid = pid;
-    if(req.query.uid){
+    if (req.query.uid) {
         params['user.id'] = req.query.uid;
     }
     console.log(params);
@@ -61,18 +62,59 @@ router.post('/', function (req, res) {
     //create new project
 
     let appointment = { user: {} };
-    appointment.title = req.body.title;
-    appointment.remarks = req.body.remarks;
-    appointment.st = req.body.st;
-    appointment.et = req.body.et;
-    appointment.fields = req.body.details;
+    // appointment.title = req.body.title;
+    // appointment.remarks = req.body.remarks;
+    // appointment.st = req.body.st;
+    appointment.date = req.body.date;
+    appointment.slot = req.body.slot;
+    // appointment.et = req.body.et;
+    // appointment.fields = req.body.details;
     appointment.pid = req.body.pid;
-    appointment.ap_with = req.body.ap_with;
+    // appointment.ap_with = req.body.ap_with;
     appointment.c_dt = new Date();
     appointment.u_dt = new Date();
     appointment.user.id = req.body.user.id;
     appointment.user.name = req.body.user.name;
+    appointment.user.mobile = req.body.user.mobile;
+    appointment.user.email = req.body.user.email;
     createAppointment(appointment).then((appointment) => {
+        nodemailer.createTestAccount((err, account) => {
+            // create reusable transporter object using the default SMTP transport
+            let transporter = nodemailer.createTransport({
+                service: 'Gmail',
+                //port: 587,
+                //secure: false, // true for 465, false for other ports
+                auth: {
+                    user: '101demoid@gmail.com', // generated ethereal user
+                    pass: 'aliflaila@101' // generated ethereal password
+                }
+            });
+
+            // setup email data with unicode symbols
+            let mailOptions = {
+                from: '"Doctor X" <doctorx@gmail.com>', // sender address
+                to: req.body.user.email, // list of receivers
+                subject: 'Hello ✔', // Subject line
+                text: 'Hello world?', // plain text body
+                html: `<h1>Congratulation  ${appointment.user.name} ! your appointment booked</h1> <p><h3>Date : ${new Date(req.body.date).toUTCString()}</h3></p>
+                <p><h3>Date : ${req.body.slot}</h3></p>
+                ` // html body
+            };
+
+            // send mail with defined transport object
+            transporter.sendMail(mailOptions, (error, info) => {
+                if (error) {
+                    return console.log(error);
+                }
+                console.log('Message sent: %s', info.messageId);
+                // Preview only available when sending through an Ethereal account
+                console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+
+                // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+                // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+            });
+        });
+
         return res.send(appointment);
     });
     // findProjectById(params).then((result) => {
@@ -123,7 +165,7 @@ router.put('/:id', function (req, res) {
     //         });
     //     }
     // });
-    updateAppointment({},appointment).then((appointment) => {
+    updateAppointment({}, appointment).then((appointment) => {
         return res.send(appointment);
     });
     //validate params
@@ -175,7 +217,7 @@ function getAppointments(where) {
         // }
         console.log(config.mongo.db);
 
-        mongodb.get().db(config.mongo.db).collection(config.mongo.appointment_col).find(where, { fields: { st: 1, et: 1, title: 1, remarks:1,user:1,fields:1 } }).toArray(function (err, result) {
+        mongodb.get().db(config.mongo.db).collection(config.mongo.appointment_col).find(where).toArray(function (err, result) {
             console.log(result);
             if (err) {
                 console.log(err);
@@ -236,4 +278,7 @@ function saveProject(project, where) {
         });
     });
 }
+
+
+
 module.exports = router;

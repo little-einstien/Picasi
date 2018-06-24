@@ -36,6 +36,30 @@ router.get('/:token', function (req, res) {
         });
     });
 });
+router.post('/u/:un', function (req, res) {
+    let un = req.params.un;
+    let date = req.body.date;
+    let params = {un : un};
+    if(date){
+        params.date = date;
+    }
+    // let token = req.params.token;
+    // jwt.verify(token, config.auth.skey, function (err, decoded) {
+    //     if (err) {
+    //         return res.status(403).send(err);
+    //     }
+    getSlots(params).then((slots) => {
+        return res.json(slots);
+    });
+});
+
+router.get('/u/:un', function (req, res) {
+    getSlots({un : req.params.un}).then((slots) => {
+        return res.json(slots);
+    });
+});
+
+
 
 router.post('/', function (req, res) {
     //validate param
@@ -49,12 +73,13 @@ router.post('/', function (req, res) {
         if (err) {
             return res.status(403).send(err);
         }
-        let slots  = {};
+        let slots = {};
         slots.m_slt = req.body.m_slts;
         slots.e_slt = req.body.e_slts;
         slots.date = req.body.date;
-        slots.un = decoded.data;
         
+        slots.un = decoded.data;
+
         createSlots(slots).then((slots) => {
             return res.send(slots);
         });
@@ -140,15 +165,32 @@ router.delete('/:id', function (req, res) {
 
 });
 
-function getSlots(username) {
-    // console.log(`checking project with id = ${params}`);
+function getSlots(params) {
+     console.log(`get slots for = ${params}`);
     return new Promise(function (resolve, reject) {
         // let where = {};
         // if (params) {
         //     params.status = 1;
         // }
         console.log(config.mongo.db);
-        mongodb.get().db(config.mongo.db).collection(config.mongo.slots_col).find({ un: username }).toArray(function (err, result) {
+        mongodb.get().db(config.mongo.db).collection(config.mongo.slots_col).find(params,{fields : {_id  : 0}}).toArray(function (err, result) {
+            console.log(result);
+            if (err) {
+                console.log(err);
+                reject({ status: FAILURE });
+            }
+            if (result && result.length != 0) {
+                resolve({ status: SUCCESS, data: result });
+            } else {
+                resolve({ status: FAILURE, data: [] });
+            }
+        });
+    });
+}
+function getUsersFromPid(pid) {
+    return new Promise(function (resolve, reject) {
+        console.log(config.mongo.db);
+        mongodb.get().db(config.mongo.db).collection(config.mongo.users_col).find({ pid: pid, rid: 1 }).toArray(function (err, result) {
             console.log(result);
             if (err) {
                 console.log(err);
@@ -162,7 +204,6 @@ function getSlots(username) {
         });
     });
 }
-
 function validateProject(project) {
     return Joi.validate(project, schema);
 }

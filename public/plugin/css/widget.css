@@ -1,16 +1,15 @@
 #main-div-wrapper {
 	height: 0px;		
 	position: fixed;
-	right: 0px; /*used for right spacing from window*/
-	bottom: 0px; /*used for bottom spacing from window*/
+	right: 110px; /*used for right spacing from window*/
+	bottom: 10px; /*used for bottom spacing from window*/
 	width: 100%;
 	max-width: 400px;
-	margin-right:10px;
 	/* background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
 }
 
 #main-div-wrapper.widget-toggle {
-	height: 540px !important;
+	height: 620px !important;
 } 
 
 .chatbot-icon {
@@ -19,6 +18,25 @@
     bottom: 0;
     right: 0;
     margin-right: 15px;
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.chatbot-icon img {
+	width:80px;
+    height: 80px; /*height always use auto*/
+    cursor: pointer;
+    border-radius: 100%;
+    background: orange; /*put backround color if you want below your icon any color*/
+}
+.chat-close {
+    background: url('https://png.icons8.com/color/180/delete-sign.png') no-repeat 0 0;
+    background-size: cover;
+}
+.chat-icon {
+    background: url('https://tars-file-upload.s3.amazonaws.com/ByNADi/d1702edc82906aa71116884f9f780d3f--basowhite.png') no-repeat 0 0;
+    background-size: cover;
 }
 		
 #close-icon {
@@ -35,10 +53,6 @@
     width: 32px;
 }
 
-.chatbot-icon img {
-	width:80px;
-    height: 80px; /*height always use auto*/
-    cursor: pointer;
-    border-radius: 100%;
-    background: orange; /*put backround color if you want below your icon any color*/
-}
+
+
+

@@ -29,12 +29,19 @@ router.post('/login', function (req, res) {
     isValidCredentials(credentials).then((isValid) => {
         if(isValid){
             res.send({status:SUCCESS,token:jwt.sign({
-                data:credentials.username,   
+                data:credentials.username,
+                pid:  'f7W18EB', 
                 exp: Math.floor(Date.now() / 1000) + (60 * 60)
               }, config.auth.skey)});
         }else{
             res.send({status:FAILURE,msg:"Invalid user id password combination"});
         }
+    });
+});
+
+router.get('/p/:pid', function (req, res) {
+    getUserdetails(req.params.pid).then((data) => {
+        return res.json(data);
     });
 });
 
@@ -55,7 +62,40 @@ function isValidCredentials(credentials) {
         });
     });
 }
-
+function getUserdetails(pid) {
+    return new Promise(function (resolve, reject) {
+        console.log(config.mongo.db);
+        mongodb.get().db(config.mongo.db).collection(config.mongo.users_col).find({pid : pid},{ fields:{username:1,_id:0}}).toArray(function (err, result) {
+            console.log(result);
+            if (err) {
+                console.log(err);
+                reject(err);
+            }
+            else if (result && result.length != 0) {
+                resolve({status:SUCCESS , data : result});
+            }else{
+                reject({status:FAILURE , data : []});
+            }
+        });
+    });
+}
+function getUserdetailsByUN(un) {
+    return new Promise(function (resolve, reject) {
+        console.log(config.mongo.db);
+        mongodb.get().db(config.mongo.db).collection(config.mongo.users_col).find({username:un},{ fields:{username:1,_id:0}}).toArray(function (err, result) {
+            console.log(result);
+            if (err) {
+                console.log(err);
+                reject(err);
+            }
+            else if (result && result.length != 0) {
+                resolve({status:SUCCESS , data : result});
+            }else{
+                reject({status:FAILURE , data : []});
+            }
+        });
+    });
+}
 function validateUser(project) {
     return Joi.validate(project, schema);
 }
