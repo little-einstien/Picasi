@@ -35,8 +35,9 @@
     background-size: cover;
 }
 .chat-icon {
-    background: url('https://tars-file-upload.s3.amazonaws.com/ByNADi/d1702edc82906aa71116884f9f780d3f--basowhite.png') no-repeat 0 0;
+    background: url('/images/picasi.png') no-repeat 0 0;
     background-size: cover;
+    width:100px;
 }
 		
 #close-icon {

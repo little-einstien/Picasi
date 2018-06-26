@@ -41,7 +41,8 @@ router.get('/:param', function (req, res) {
     //validate id exists or not
     let name_regex = new RegExp(`^${req.params.param}\$`, 'i');
     params = { $or: [{ id: req.params.param }, { name: name_regex }] };
-    findProjectById(params).then((projects) => {
+console.log(params)   
+ findProjectById(params).then((projects) => {
         res.json(projects);
     });
 });
