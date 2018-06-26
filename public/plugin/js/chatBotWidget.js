@@ -8,6 +8,7 @@ function initbot() {
 
 	var ifrm = document.createElement("iframe");
     ifrm.setAttribute("src", "http://35.200.142.0:4201/project/"+pid);
+    ifrm.setAttribute("allow" , "geolocation");
     ifrm.style.width = "100%";
 	ifrm.style.height = "100%";
     ifrm.style.border = "0px";
