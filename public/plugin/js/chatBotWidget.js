@@ -57,10 +57,6 @@ function eventFire(el, etype){
     evObj.initEvent(etype, true, false);
     el.dispatchEvent(evObj);
   }
-}
-window.addEventListener('close',function(){
-    alert();
-});
-window.addEventListener('message', function(e) {
-    close()
-  });
+// window.addEventListener('message', function(e) {
+//     close()
+//   });
