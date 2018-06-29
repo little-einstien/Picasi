@@ -1,5 +1,5 @@
 // var APP_URL = "https://demochatbot.herokuapp.com";
-var APP_URL = "http://35.200.142.0:3000";
+var APP_URL = "http://35.200.198.3:3000";
 var pid = $('#bot-script').attr('data-project');
 var chatbot_url = "http://35.200.142.0:4201/project/"+pid;
 function initbot() {
@@ -30,7 +30,7 @@ initbot();
 $('.chatbot-icon').click(function(){
     if(!$('#bot-frame').attr('src')){
 	$('#bot-frame').attr('src',chatbot_url);
-    }
+    }setTimeout(function() {
     $('#main-div-wrapper').toggleClass('widget-toggle');
     //$(this).hide();
     if($(this).hasClass('chat-icon')){
@@ -43,7 +43,7 @@ $('.chatbot-icon').click(function(){
         $(this).addClass('chat-icon');
         $('#main-div-wrapper').addClass('fadeOut');
         $('#main-div-wrapper').removeClass('fadeIn');
-    }
+    }},500);
 });
 function close(){
 	$('#main-div-wrapper').removeClass('widget-toggle');
