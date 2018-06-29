@@ -1,16 +1,17 @@
 // var APP_URL = "https://demochatbot.herokuapp.com";
 var APP_URL = "http://35.200.142.0:3000";
+var pid = $('#bot-script').attr('data-project');
+var chatbot_url = "http://35.200.142.0:4201/project/"+pid;
 function initbot() {
-    var pid = $('#bot-script').attr('data-project');
-	$('head').append('<link rel="stylesheet" type="text/css" href="'+APP_URL+'/plugin/css/widget.css">');
-	$('head').append('<link rel="stylesheet" type="text/css" href="https://daneden.github.io/animate.css/animate.min.css">');
-	$("body").append('<div id="main-div-wrapper" class="animated"></div>');
-
-	var ifrm = document.createElement("iframe");
-    ifrm.setAttribute("src", "http://35.200.142.0:4201/project/"+pid);
+    $('head').append('<link rel="stylesheet" type="text/css" href="'+APP_URL+'/plugin/css/widget.css">');
+    $('head').append('<link rel="stylesheet" type="text/css" href="https://daneden.github.io/animate.css/animate.min.css">');
+    $("body").append('<div id="main-div-wrapper" class="animated"></div>');
+    var ifrm = document.createElement("iframe");
+    ifrm.setAttribute("src", "");
+    ifrm.setAttribute("id", "bot-frame");
     ifrm.setAttribute("allow" , "geolocation");
     ifrm.style.width = "100%";
-	ifrm.style.height = "100%";
+    ifrm.style.height = "100%";
     ifrm.style.border = "0px";
     ifrm.style.transition = "all .3s ease";
     document.getElementById('main-div-wrapper').appendChild(ifrm);
@@ -27,7 +28,10 @@ function initbot() {
 initbot();
 
 $('.chatbot-icon').click(function(){
-	$('#main-div-wrapper').toggleClass('widget-toggle');
+    if(!$('#bot-frame').attr('src')){
+	$('#bot-frame').attr('src',chatbot_url);
+    }
+    $('#main-div-wrapper').toggleClass('widget-toggle');
     //$(this).hide();
     if($(this).hasClass('chat-icon')){
         $(this).removeClass('chat-icon');
