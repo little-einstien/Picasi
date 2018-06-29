@@ -8389,3 +8389,291 @@ checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
 [0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.692 ms - 2372[0m
 [0mGET /plugin/js/chatBotWidget.js [32m200 [0m1.522 ms - 2372[0m
 [0mGET /favicon.ico [33m404 [0m1.047 ms - 1006[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m4.468 ms - -[0m
+[0mGET /test.html [32m200 [0m0.638 ms - 3081[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.608 ms - 2372[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.605 ms - 1283[0m
+[0mGET /images/picasi.png [32m200 [0m0.601 ms - 22279[0m
+[0mGET /perfect-scrollbar.component.css.map [33m404 [0m1.057 ms - 1006[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1001,"humidity":66,"temp_min":305.15,"temp_max":305.15},"visibility":4000,"wind":{"speed":4.1,"deg":120,"gust":9.3},"clouds":{"all":40},"dt":1530252000,"sys":{"type":1,"id":7809,"message":0.0046,"country":"IN","sunrise":1530230143,"sunset":1530280342},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m129.324 ms - 475[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m3.088 ms - 228[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m4.188 ms - 11820[0m
+[0mGET /test.html [36m304 [0m0.512 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.530 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.490 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.445 ms - -[0m
+[0mGET /perfect-scrollbar.component.css.map [33m404 [0m1.177 ms - 1006[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1001,"humidity":66,"temp_min":305.15,"temp_max":305.15},"visibility":4000,"wind":{"speed":4.1,"deg":120,"gust":9.3},"clouds":{"all":40},"dt":1530252000,"sys":{"type":1,"id":7809,"message":0.0061,"country":"IN","sunrise":1530230143,"sunset":1530280342},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m134.637 ms - 475[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m4.051 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m5.615 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.476 ms - -[0m
+[0mGET /test.html [36m304 [0m0.440 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.455 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.607 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.451 ms - -[0m
+[0mGET /perfect-scrollbar.component.css.map [33m404 [0m1.460 ms - 1006[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1001,"humidity":66,"temp_min":305.15,"temp_max":305.15},"visibility":4000,"wind":{"speed":4.1,"deg":120,"gust":9.3},"clouds":{"all":40},"dt":1530252000,"sys":{"type":1,"id":7809,"message":0.0061,"country":"IN","sunrise":1530230143,"sunset":1530280342},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m129.080 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.520 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m4.863 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.453 ms - -[0m
+[0mGET /test.html [36m304 [0m0.604 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.599 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.483 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.596 ms - -[0m
+[0mGET /perfect-scrollbar.component.css.map [33m404 [0m1.295 ms - 1006[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1001,"humidity":66,"temp_min":305.15,"temp_max":305.15},"visibility":4000,"wind":{"speed":4.1,"deg":120,"gust":9.3},"clouds":{"all":40},"dt":1530252000,"sys":{"type":1,"id":7809,"message":0.0061,"country":"IN","sunrise":1530230143,"sunset":1530280342},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m133.797 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.143 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.694 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m2.903 ms - -[0m
+[0mGET /test.html [36m304 [0m1.653 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.528 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.454 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.446 ms - -[0m
+[0mGET /perfect-scrollbar.component.css.map [33m404 [0m1.058 ms - 1006[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1001,"humidity":66,"temp_min":305.15,"temp_max":305.15},"visibility":4000,"wind":{"speed":4.1,"deg":120,"gust":9.3},"clouds":{"all":40},"dt":1530252000,"sys":{"type":1,"id":7809,"message":0.0061,"country":"IN","sunrise":1530230143,"sunset":1530280342},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m130.808 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.161 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.947 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.445 ms - -[0m
+[0mGET /perfect-scrollbar.component.css.map [33m404 [0m1.057 ms - 1006[0m
+[0mGET /test.html [32m200 [0m0.658 ms - 3081[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.626 ms - 2374[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.601 ms - 1283[0m
+[0mGET /images/picasi.png [32m200 [0m0.676 ms - 22279[0m
+[0mGET /test.html [32m200 [0m0.633 ms - 3081[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.669 ms - 2374[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.606 ms - 1283[0m
+[0mGET /images/picasi.png [32m200 [0m0.698 ms - 22279[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.729 ms - 1283[0m
+[0mGET /perfect-scrollbar.component.css.map [33m404 [0m1.795 ms - 1006[0m
+[0mGET /favicon.ico [33m404 [0m1.180 ms - 1006[0m
+error: null
+statusCode: 504
+body: <html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+undefined:1
+<html>
+^
+
+SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (/home/einstien0001/Arnav/Picasi/routes/weather.js:29:50)
+    at Request.self.callback (/home/einstien0001/Arnav/Picasi/node_modules/request/request.js:185:22)
+    at emitTwo (events.js:126:13)
+    at Request.emit (events.js:214:7)
+    at Request.<anonymous> (/home/einstien0001/Arnav/Picasi/node_modules/request/request.js:1157:10)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at IncomingMessage.<anonymous> (/home/einstien0001/Arnav/Picasi/node_modules/request/request.js:1079:12)
+    at Object.onceWrapper (events.js:313:30)
+
+> chatbot_demo@1.0.0 start /home/einstien0001/Arnav/Picasi
+> node ./bin/www
+
+Mongo Connected !
+
+> chatbot_demo@1.0.0 start /home/einstien0001/Arnav/Picasi
+> node ./bin/www
+
+Port 3000 is already in use
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! chatbot_demo@1.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the chatbot_demo@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/einstien0001/.npm/_logs/2018-06-29T07_23_10_783Z-debug.log
+[0mGET / [32m200 [0m15.289 ms - 3172[0m
+[0mGET /favicon.ico [33m404 [0m3.224 ms - 1006[0m
+[0mGET /test.html [32m200 [0m3.016 ms - 3081[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m1.414 ms - 2374[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.883 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.510 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1001,"humidity":66,"temp_min":305.15,"temp_max":305.15},"visibility":4000,"wind":{"speed":4.1,"deg":120,"gust":10.3},"clouds":{"all":40},"dt":1530253800,"sys":{"type":1,"id":7809,"message":0.0076,"country":"IN","sunrise":1530230144,"sunset":1530280342},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m153.274 ms - 476[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m20.469 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m187.571 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.542 ms - -[0m
+[0mGET /test.html [36m304 [0m0.667 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.704 ms - 2374[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.687 ms - 1283[0m
+[0mGET /images/picasi.png [32m200 [0m0.742 ms - 22279[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1001,"humidity":66,"temp_min":305.15,"temp_max":305.15},"visibility":4000,"wind":{"speed":4.1,"deg":120,"gust":10.3},"clouds":{"all":40},"dt":1530253800,"sys":{"type":1,"id":7809,"message":0.0076,"country":"IN","sunrise":1530230144,"sunset":1530280342},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m129.975 ms - 476[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m3.304 ms - 228[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m4.082 ms - 11820[0m
+[0mGET /favicon.ico [33m404 [0m1.503 ms - 1006[0m

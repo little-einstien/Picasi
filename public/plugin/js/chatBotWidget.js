@@ -58,5 +58,5 @@ window.addEventListener('close',function(){
     alert();
 });
 window.addEventListener('message', function(e) {
-    close()
+//    close()
   });
