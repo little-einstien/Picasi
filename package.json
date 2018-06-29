@@ -19,6 +19,7 @@
     "nodemailer": "^4.6.7",
     "nodemon": "^1.17.5",
     "randomstring": "^1.1.5",
+    "request": "^2.87.0",
     "serve-favicon": "~2.4.5"
   },
   "description": "This is the demo chatbot",

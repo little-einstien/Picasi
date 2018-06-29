@@ -1,5 +1,5 @@
 // var APP_URL = "https://demochatbot.herokuapp.com";
-var APP_URL = "http://35.200.142.0:3000";
+var APP_URL = "http://35.200.198.3:3000";
 function initbot() {
     var pid = $('#bot-script').attr('data-project');
 	$('head').append('<link rel="stylesheet" type="text/css" href="'+APP_URL+'/plugin/css/widget.css">');
@@ -7,7 +7,7 @@ function initbot() {
 	$("body").append('<div id="main-div-wrapper" class="animated"></div>');
 
 	var ifrm = document.createElement("iframe");
-    ifrm.setAttribute("src", "http://35.200.142.0:4201/project/"+pid);
+    ifrm.setAttribute("src", "http://35.200.198.3:4201/project/"+pid);
     ifrm.setAttribute("allow" , "geolocation");
     ifrm.style.width = "100%";
 	ifrm.style.height = "100%";

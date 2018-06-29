@@ -8298,3 +8298,94 @@ checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
     status: 1 } ]
 [0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m2.626 ms - 10326[0m
 [0mGET /favicon.ico [33m404 [0m1.048 ms - 1006[0m
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! chatbot_demo@1.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the chatbot_demo@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/rsa-key-20180624/.npm/_logs/2018-06-26T19_53_19_955Z-debug.log
+
+> chatbot_demo@1.0.0 start /home/einstien0001/Arnav/Picasi
+> node ./bin/www
+
+Mongo Connected !
+[0mGET /test.html [36m304 [0m4.462 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.730 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.618 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.435 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1001,"humidity":66,"temp_min":305.15,"temp_max":305.15},"visibility":4000,"wind":{"speed":4.1,"deg":120,"gust":9.3},"clouds":{"all":40},"dt":1530252000,"sys":{"type":1,"id":7809,"message":0.0046,"country":"IN","sunrise":1530230143,"sunset":1530280342},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m163.099 ms - 475[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m14.472 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m193.835 ms - -[0m
+[0mGET /test.html [32m200 [0m3.617 ms - 3081[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.822 ms - 2372[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.695 ms - 1283[0m
+[0mGET /images/picasi.png [32m200 [0m0.656 ms - 22279[0m
+[0mGET /favicon.ico [33m404 [0m6.486 ms - 1006[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.475 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1001,"humidity":66,"temp_min":305.15,"temp_max":305.15},"visibility":4000,"wind":{"speed":4.1,"deg":120,"gust":9.3},"clouds":{"all":40},"dt":1530252000,"sys":{"type":1,"id":7809,"message":0.0046,"country":"IN","sunrise":1530230143,"sunset":1530280342},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m130.881 ms - 475[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m3.147 ms - 228[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m5.612 ms - 11820[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.573 ms - 2372[0m
+[0mGET /favicon.ico [33m404 [0m1.445 ms - 1006[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.568 ms - 2372[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.638 ms - 2372[0m
+[0mGET /favicon.ico [33m404 [0m1.008 ms - 1006[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.583 ms - 2372[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.596 ms - 2372[0m
+[0mGET /favicon.ico [33m404 [0m1.078 ms - 1006[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.611 ms - 2372[0m
+[0mGET /favicon.ico [33m404 [0m1.004 ms - 1006[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.692 ms - 2372[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m1.522 ms - 2372[0m
+[0mGET /favicon.ico [33m404 [0m1.047 ms - 1006[0m
