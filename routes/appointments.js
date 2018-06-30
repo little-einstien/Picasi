@@ -13,7 +13,11 @@ var mongodb = require('../app/mongo');
 const Joi = require('joi');
 const enc = require('../app/enc');
 const nodemailer = require('nodemailer');
+var accountSid = 'ACa3e4feae800a67dffe4fb9a30900a114'; // Your Account SID from www.twilio.com/console
+var authToken = 'fb1efc05ac983d59cc6b4e7e87b730be';   // Your Auth Token from www.twilio.com/console
 
+var twilio = require('twilio');
+var client = new twilio(accountSid, authToken);
 const schema = Joi.object().keys({
 
     title: Joi.string().max(150).required(),
@@ -78,6 +82,13 @@ router.post('/', function (req, res) {
     appointment.user.mobile = req.body.user.mobile;
     appointment.user.email = req.body.user.email;
     createAppointment(appointment).then((appointment) => {
+        client.messages.create({
+            body: `<h1>Congratulation  ${appointment.user.name} ! your appointment booked</h1> <p><h3>Date : ${new Date(req.body.date).toUTCString()}</h3></p>
+            <p><h3>Date : ${req.body.slot}</h3></p>
+            `,
+            to: '+919868460736',  // Text this number
+            from: '+18577633055' // From a valid Twilio number
+        }).then((message) => console.log(message.sid)).catch((err)=>{console.log(err)});
         nodemailer.createTestAccount((err, account) => {
             // create reusable transporter object using the default SMTP transport
             let transporter = nodemailer.createTransport({
