@@ -19,7 +19,9 @@ var apiKey = "5a763f161acc50200c6b2b15e8b678f5";
 router.get('/:lat/:lon', function (req, res) {
     let lat = req.params.lat;
     let lon = req.params.lon;
-    request(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&&lon=${lon}&&APPID=${apiKey}`, function (error, response, body) {
+    let city = 'noida';
+    // request(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&&lon=${lon}&&APPID=${apiKey}`, function (error, response, body) {
+    request(`http://api.openweathermap.org/data/2.5/weather?q=${city}&&APPID=${apiKey}`, function (error, response, body) {
         console.log('error:', error); // Print the error if one occurred
         console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
         console.log('body:', body); // Print the HTML for the Google homepage.
