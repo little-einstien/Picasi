@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.4",
@@ -20,7 +21,9 @@
     "nodemon": "^1.17.5",
     "randomstring": "^1.1.5",
     "request": "^2.87.0",
-    "serve-favicon": "~2.4.5"
+    "sendgrid": "^5.2.3",
+    "serve-favicon": "~2.4.5",
+    "twilio": "^3.17.4"
   },
   "description": "This is the demo chatbot",
   "main": "bin/www",

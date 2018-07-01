@@ -11,6 +11,7 @@ var intents = require('./routes/intents');
 var users = require('./routes/users');
 var flows = require('./routes/flows');
 var slots = require('./routes/slots');
+var forms = require('./routes/forms');
 var weather = require('./routes/weather');
 var appointments = require('./routes/appointments')
 var cors = require('cors');
@@ -40,6 +41,7 @@ app.use('/api/intents', intents);
 app.use('/api/flows', flows);
 app.use('/api/appointments', appointments);
 app.use('/api/weather',weather);
+app.use('/api/forms', forms);
  
 
 

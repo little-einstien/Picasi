@@ -30,7 +30,8 @@ initbot();
 $('.chatbot-icon').click(function(){
     if(!$('#bot-frame').attr('src')){
 	$('#bot-frame').attr('src',chatbot_url);
-    }setTimeout(function() {
+    }
+//setTimeout(function() {
     $('#main-div-wrapper').toggleClass('widget-toggle');
     //$(this).hide();
     if($(this).hasClass('chat-icon')){
@@ -43,7 +44,8 @@ $('.chatbot-icon').click(function(){
         $(this).addClass('chat-icon');
         $('#main-div-wrapper').addClass('fadeOut');
         $('#main-div-wrapper').removeClass('fadeIn');
-    }},500);
+}
+  //  }},500);
 });
 function close(){
 	$('#main-div-wrapper').removeClass('widget-toggle');

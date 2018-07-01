@@ -44,6 +44,7 @@ router.get('/:pid', function (req, res) {
     let params = {};
     let pid = req.params.pid;
     params.pid = pid;
+    params.status = 1;
     if (req.query.uid) {
         params['user.id'] = req.query.uid;
     }
@@ -77,23 +78,25 @@ router.post('/', function (req, res) {
     // appointment.ap_with = req.body.ap_with;
     appointment.c_dt = new Date();
     appointment.u_dt = new Date();
+    appointment.id  = `AP${randomstring.generate(7)}`;
+    appointment.status =  1;
+    appointment.remarks =  req.body.remarks;
     appointment.user.id = req.body.user.id;
     appointment.user.name = req.body.user.name;
     appointment.user.mobile = req.body.user.mobile;
     appointment.user.email = req.body.user.email;
     createAppointment(appointment).then((appointment) => {
         client.messages.create({
-            body: `<h1>Congratulation  ${appointment.user.name} ! your appointment booked</h1> <p><h3>Date : ${new Date(req.body.date).toUTCString()}</h3></p>
-            <p><h3>Date : ${req.body.slot}</h3></p>
-            `,
+            body: `Congratulation  ${appointment.user.name} ! your appointment booked. Date : ${new Date(req.body.date).toUTCString()}. Date : ${req.body.slot}
+            Appointment id : ${appointment.id}`,
             to: '+919868460736',  // Text this number
             from: '+18577633055' // From a valid Twilio number
         }).then((message) => console.log(message.sid)).catch((err)=>{console.log(err)});
-        nodemailer.createTestAccount((err, account) => {
+/*        nodemailer.createTestAccount((err, account) => {
             // create reusable transporter object using the default SMTP transport
             let transporter = nodemailer.createTransport({
                 service: 'Gmail',
-                //port: 587,
+                port: 4205,
                 //secure: false, // true for 465, false for other ports
                 auth: {
                     user: '101demoid@gmail.com', // generated ethereal user
@@ -124,7 +127,17 @@ router.post('/', function (req, res) {
                 // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
                 // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
             });
-        });
+        });*/
+const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey('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');
+const msg = {
+  to: 'arnavsimer@ymail.com',
+  from: 'test@example.com',
+  subject: 'Sending with SendGrid is Fun',
+  text: 'and easy to do anywhere, even with Node.js',
+  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+};
+sgMail.send(msg);
 
         return res.send(appointment);
     });
@@ -186,37 +199,9 @@ router.put('/:id', function (req, res) {
 });
 
 router.delete('/:id', function (req, res) {
-    console.log(req.body);
-    //validate param
-    let validationResult = validateProject(req.body);
-    if (validationResult.error) {
-        console.log(validationResult)
-        return res.status(400).send(validationResult.error.details[0].message);
-    }
-
-    //create new project
-    let id = req.params.id;
-    // let name_regex = new RegExp(`^${name}\$`, 'i');
-    let params = {};
-    params.id = id;
-    let project = {};
-    project.name = req.body.name;
-    project.tts = req.body.tts;
-    project.stt = req.body.stt;
-    project.status = 0;
-
-    // project.id = enc.generateHash(project.name);
-    console.log(params);
-    getAppointments(params).then((result) => {
-        if (result.status == FAILURE) {
-            return res.status(404).send(`Project does not exists with id ${params.id} `)
-        } else {
-            saveProject({ $set: project }, params).then((result) => {
-                return res.send(project);
-            });
-        }
-    });
-
+   updateAppointment({id: req.params.id},{$set:{status : 0 }}).then((appointment) => {
+	res.send({status:SUCCESS,data:appointment});
+   })
 });
 
 function getAppointments(where) {

@@ -11,7 +11,10 @@
 #main-div-wrapper.widget-toggle {
 	height: 620px !important;
 } 
+#main-div-wrapper{
 
+z-index: 999999999;
+}
 .chatbot-icon {
     margin-bottom: 15px;
     position: fixed;
@@ -37,7 +40,6 @@
 .chat-icon {
     background: url('/images/picasi.png') no-repeat 0 0;
     background-size: cover;
-    width:100px;
 }
 		
 #close-icon {

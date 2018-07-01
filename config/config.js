@@ -16,6 +16,7 @@ config.mongo.project_col  = 'project';
 config.mongo.appointment_col  = 'appointments';
 config.mongo.users_col  = 'users';
 config.mongo.slots_col  = 'slots';
+config.mongo.forms_col  = 'forms';
 config.auth.skey = 'oiYXJuYXYiLCJleHAiOjE1Mjk2MTc3MzIsImlhdCI6MTUy'
 
 
