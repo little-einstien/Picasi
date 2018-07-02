@@ -15,7 +15,7 @@ const enc = require('../app/enc');
 const nodemailer = require('nodemailer');
 var accountSid = 'ACa3e4feae800a67dffe4fb9a30900a1141'; // Your Account SID from www.twilio.com/console
 var authToken = 'fb1efc05ac983d59cc6b4e7e87b730be1';   // Your Auth Token from www.twilio.com/console
-
+var messageapi = require('../messageapi');
 var twilio = require('twilio');
 var client = new twilio(accountSid, authToken);
 const schema = Joi.object().keys({
@@ -86,12 +86,17 @@ router.post('/', function (req, res) {
     appointment.user.mobile = req.body.user.mobile;
     appointment.user.email = req.body.user.email;
     createAppointment(appointment).then((appointment) => {
-        client.messages.create({
-            body: `Congratulation  ${appointment.user.name} ! your appointment booked. Date : ${new Date(req.body.date).toUTCString()}. Date : ${req.body.slot}
-            Appointment id : ${appointment.id}`,
-            to: '+919868460736',  // Text this number
-            from: '+18577633055' // From a valid Twilio number
-        }).then((message) => console.log(message.sid)).catch((err)=>{console.log(err)});
+	let date = new Date(appointment.date);
+	let hrs_mins = appointment.slot.l.split(":");
+	date.setHours(hrs_mins[0]);
+        date.setMinutes(hrs_mins[1]);
+
+
+	messageapi.sendMessage(appointment.user.mobile,`Hey your appointment is confirmed for ${date.toUTCString()}.Your appointment id is ${appointment.id}`).then((message) => {
+		console.log(message);
+	}).catch((err)=>{
+		console.log(err);
+	});
 /*        nodemailer.createTestAccount((err, account) => {
             // create reusable transporter object using the default SMTP transport
             let transporter = nodemailer.createTransport({
@@ -199,10 +204,22 @@ router.put('/:id', function (req, res) {
 });
 
 router.delete('/:id', function (req, res) {
-   updateAppointment({id: req.params.id},{$set:{status : 0 }}).then((appointment) => {
+   updateAppointment({id: req.params.id},{$set:{status : 0 }}).then(() => {
+	getAppointments({id : req.params.id}).then((data) => {
+		let appointment = data.data[0];
+	let date = new Date(appointment.date);
+        let hrs_mins = appointment.slot.l.split(":");
+        date.setHours(hrs_mins[0]);
+        date.setMinutes(hrs_mins[1]);
+	
+	 messageapi.sendMessage(appointment.user.mobile,`Your appointment with appointment id  ${appointment.id} on ${date.toUTCString()} is cancelled by doctor please reschedule it`).then((message) => {
+                console.log(message);
+        }).catch((err)=>{
+                console.log(err);
+       });
 	res.send({status:SUCCESS,data:appointment});
    })
-});
+});});
 
 function getAppointments(where) {
     // console.log(`checking project with id = ${params}`);

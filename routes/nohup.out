@@ -1,0 +1,1046 @@
+
+> chatbot_demo@1.0.0 start /home/einstien0001/Arnav/Picasi
+> node ./bin/www
+
+Mongo Connected !
+Cookies :   tWhzsfm
+[0mGET /chkusr [32m200 [0m248.487 ms - 12[0m
+
+> chatbot_demo@1.0.0 start /home/einstien0001/Arnav/Picasi
+> node ./bin/www
+
+Mongo Connected !
+
+> chatbot_demo@1.0.0 start /home/einstien0001/Arnav/Picasi
+> node ./bin/www
+
+
+> chatbot_demo@1.0.0 start /home/einstien0001/Arnav/Picasi
+> node ./bin/www
+
+Mongo Connected !
+Cookies :   ddW8IR4
+[0mGET /chkusr [32m200 [0m241.282 ms - 12[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m3.630 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":304.15,"pressure":997,"humidity":79,"temp_min":304.15,"temp_max":304.15},"visibility":3000,"wind":{"speed":2.6,"deg":230},"clouds":{"all":40},"dt":1530477000,"sys":{"type":1,"id":7809,"message":0.0121,"country":"IN","sunrise":1530403001,"sunset":1530453144},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m208.962 ms - 463[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m8.798 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m141.849 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m1.942 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.635 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.487 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.843 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":304.15,"pressure":997,"humidity":79,"temp_min":304.15,"temp_max":304.15},"visibility":3000,"wind":{"speed":2.6,"deg":230},"clouds":{"all":40},"dt":1530477000,"sys":{"type":1,"id":7809,"message":0.0121,"country":"IN","sunrise":1530403001,"sunset":1530453144},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m131.478 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.399 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.922 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.443 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.434 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.428 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.513 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.731 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":304.15,"pressure":997,"humidity":79,"temp_min":304.15,"temp_max":304.15},"visibility":3000,"wind":{"speed":2.6,"deg":230},"clouds":{"all":40},"dt":1530477000,"sys":{"type":1,"id":7809,"message":0.0121,"country":"IN","sunrise":1530403001,"sunset":1530453144},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m127.335 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.021 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.826 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.520 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.435 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.432 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.785 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":304.15,"pressure":997,"humidity":79,"temp_min":304.15,"temp_max":304.15},"visibility":3000,"wind":{"speed":2.6,"deg":230},"clouds":{"all":40},"dt":1530477000,"sys":{"type":1,"id":7809,"message":0.0121,"country":"IN","sunrise":1530403001,"sunset":1530453144},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m126.728 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.974 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m4.648 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.515 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.604 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.442 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.493 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.770 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":304.15,"pressure":997,"humidity":79,"temp_min":304.15,"temp_max":304.15},"visibility":3000,"wind":{"speed":2.6,"deg":230},"clouds":{"all":40},"dt":1530477000,"sys":{"type":1,"id":7809,"message":0.0121,"country":"IN","sunrise":1530403001,"sunset":1530453144},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m126.765 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.808 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.736 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.549 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.435 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.463 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.860 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":304.15,"pressure":997,"humidity":79,"temp_min":304.15,"temp_max":304.15},"visibility":3000,"wind":{"speed":2.6,"deg":230},"clouds":{"all":40},"dt":1530477000,"sys":{"type":1,"id":7809,"message":0.0121,"country":"IN","sunrise":1530403001,"sunset":1530453144},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m127.244 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.125 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.451 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.799 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.696 ms - -[0m
+Cookies :   K9X0VAI
+[0mGET /chkusr [36m304 [0m228.390 ms - -[0m
+Cookies :   ecVM9s7
+[0mGET /chkusr [36m304 [0m229.274 ms - -[0m
+Cookies :   ro9W9Dp
+[0mGET /chkusr [36m304 [0m228.236 ms - -[0m
+Cookies :   gpp8xBs
+[0mGET /chkusr [32m200 [0m229.228 ms - 12[0m
+[0mGET /favicon.ico [33m404 [0m7.590 ms - 1006[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.540 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.582 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.428 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.722 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":304.15,"pressure":997,"humidity":79,"temp_min":304.15,"temp_max":304.15},"visibility":3000,"wind":{"speed":2.6,"deg":230},"clouds":{"all":40},"dt":1530477000,"sys":{"type":1,"id":7809,"message":0.0121,"country":"IN","sunrise":1530403001,"sunset":1530453144},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m126.409 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.890 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m4.907 ms - -[0m
+Cookies :   WGA1I3i
+[0mGET /chkusr [36m304 [0m229.831 ms - -[0m
+[0mGET /register [33m404 [0m1.616 ms - 1006[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m3.354 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.738 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.772 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.757 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.856 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m3.040 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.393 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.691 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.571 ms - -[0m
+chatbot_nlu_training
+[ { name: 'Monica',
+    tts: true,
+    stt: true,
+    id: '7o1CcIO',
+    created_tm: 2018-05-29T15:02:21.080Z,
+    created_by: '' },
+  { name: 'Ricky',
+    tts: false,
+    stt: true,
+    id: '3Bd5S24',
+    created_tm: 2018-05-29T17:25:37.582Z,
+    created_by: '' },
+  { name: 'Rocky',
+    tts: true,
+    stt: true,
+    id: 'AOjmjvw',
+    created_tm: 2018-05-29T17:25:46.303Z,
+    created_by: '' },
+  { name: 'Rajan',
+    tts: true,
+    stt: true,
+    id: 'ynZodoW',
+    created_tm: 2018-05-29T17:25:52.254Z,
+    created_by: '' },
+  { name: 'Arnav',
+    tts: false,
+    stt: true,
+    id: 'KlIwZ5y',
+    created_tm: 2018-05-29T17:25:57.339Z,
+    created_by: '' },
+  { name: 'KP',
+    tts: true,
+    stt: false,
+    id: 'TOiAra3',
+    created_tm: 2018-05-29T17:26:02.102Z,
+    created_by: '' },
+  { name: 'Karan',
+    tts: true,
+    stt: true,
+    id: 'cWtA20g',
+    created_tm: 2018-05-29T17:26:18.783Z,
+    created_by: '' },
+  { name: 'Virtual Doctor',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor',
+    id: '2f8c97cc656226a8d9888548d423090b' },
+  { name: 'Virtual Doctor1',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor1',
+    id: 'b730ca05344a3e622e9cc94e8204be89' },
+  { name: 'Virtual Doctor11',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor11',
+    id: 'ff0e44eabb682fc861f8d0b29ffc21fd' },
+  { name: 'Virtual Doctor111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor111',
+    id: 'eb9c421391044307c28b3e60d59f16de' },
+  { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { name: 'sdsfsfdz',
+    tts: true,
+    stt: true,
+    bg_clr: '#792626',
+    h_clr: '#202e56',
+    ucb_clr: '#814e4e',
+    bcb_clr: '#2b0c0c',
+    header: 'cdvdvd',
+    id: '6262623eb8a391d6a05b563bf7498a1c' },
+  { name: 'Testing',
+    tts: true,
+    stt: true,
+    bg_clr: '#d70606',
+    h_clr: '#6d0e0e',
+    ucb_clr: '#dd4242',
+    bcb_clr: '#c88b8b',
+    header: 'Hello',
+    id: 'fa6a5a3224d7da66d9e0bdec25f62cf0' },
+  { name: 'sadadasd',
+    tts: false,
+    stt: false,
+    bg_clr: '#dd1111',
+    h_clr: '#e91010',
+    ucb_clr: '#2c43a2',
+    bcb_clr: '#660909',
+    header: 'asdasdadas',
+    id: '906cf64ccdaa40adb534b5320e20b313' },
+  { name: 'uot9yy0y8',
+    tts: false,
+    stt: false,
+    bg_clr: '#d1a2a2',
+    h_clr: '#db1f1f',
+    ucb_clr: '#d50a0a',
+    bcb_clr: '#661010',
+    header: 'oi789u',
+    id: '4acc9dd02f91a70d831c9fb1b36afbb3' },
+  { name: 'wewrrwrrwe',
+    tts: false,
+    stt: false,
+    bg_clr: '#d04a4a',
+    h_clr: '#922424',
+    ucb_clr: '#968888',
+    bcb_clr: '#bb1212',
+    header: 'kgh',
+    id: 'd166921d6ee95d6e33fc9460e3d7b67f' },
+  { name: 'MyShop',
+    tts: false,
+    stt: false,
+    bg_clr: '#a38484',
+    h_clr: '#802a2a',
+    ucb_clr: '#7e6a6a',
+    bcb_clr: '#9e83ec',
+    header: 'Welcome to My Shop',
+    id: '2df3237b495a73dd5657b6856e1e0bfa' } ]
+[0mGET /api/projects [36m304 [0m5.760 ms - -[0m
+chatbot_nlu_training
+[ { name: 'Monica',
+    tts: true,
+    stt: true,
+    id: '7o1CcIO',
+    created_tm: 2018-05-29T15:02:21.080Z,
+    created_by: '' },
+  { name: 'Ricky',
+    tts: false,
+    stt: true,
+    id: '3Bd5S24',
+    created_tm: 2018-05-29T17:25:37.582Z,
+    created_by: '' },
+  { name: 'Rocky',
+    tts: true,
+    stt: true,
+    id: 'AOjmjvw',
+    created_tm: 2018-05-29T17:25:46.303Z,
+    created_by: '' },
+  { name: 'Rajan',
+    tts: true,
+    stt: true,
+    id: 'ynZodoW',
+    created_tm: 2018-05-29T17:25:52.254Z,
+    created_by: '' },
+  { name: 'Arnav',
+    tts: false,
+    stt: true,
+    id: 'KlIwZ5y',
+    created_tm: 2018-05-29T17:25:57.339Z,
+    created_by: '' },
+  { name: 'KP',
+    tts: true,
+    stt: false,
+    id: 'TOiAra3',
+    created_tm: 2018-05-29T17:26:02.102Z,
+    created_by: '' },
+  { name: 'Karan',
+    tts: true,
+    stt: true,
+    id: 'cWtA20g',
+    created_tm: 2018-05-29T17:26:18.783Z,
+    created_by: '' },
+  { name: 'Virtual Doctor',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor',
+    id: '2f8c97cc656226a8d9888548d423090b' },
+  { name: 'Virtual Doctor1',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor1',
+    id: 'b730ca05344a3e622e9cc94e8204be89' },
+  { name: 'Virtual Doctor11',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor11',
+    id: 'ff0e44eabb682fc861f8d0b29ffc21fd' },
+  { name: 'Virtual Doctor111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor111',
+    id: 'eb9c421391044307c28b3e60d59f16de' },
+  { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { name: 'sdsfsfdz',
+    tts: true,
+    stt: true,
+    bg_clr: '#792626',
+    h_clr: '#202e56',
+    ucb_clr: '#814e4e',
+    bcb_clr: '#2b0c0c',
+    header: 'cdvdvd',
+    id: '6262623eb8a391d6a05b563bf7498a1c' },
+  { name: 'Testing',
+    tts: true,
+    stt: true,
+    bg_clr: '#d70606',
+    h_clr: '#6d0e0e',
+    ucb_clr: '#dd4242',
+    bcb_clr: '#c88b8b',
+    header: 'Hello',
+    id: 'fa6a5a3224d7da66d9e0bdec25f62cf0' },
+  { name: 'sadadasd',
+    tts: false,
+    stt: false,
+    bg_clr: '#dd1111',
+    h_clr: '#e91010',
+    ucb_clr: '#2c43a2',
+    bcb_clr: '#660909',
+    header: 'asdasdadas',
+    id: '906cf64ccdaa40adb534b5320e20b313' },
+  { name: 'uot9yy0y8',
+    tts: false,
+    stt: false,
+    bg_clr: '#d1a2a2',
+    h_clr: '#db1f1f',
+    ucb_clr: '#d50a0a',
+    bcb_clr: '#661010',
+    header: 'oi789u',
+    id: '4acc9dd02f91a70d831c9fb1b36afbb3' },
+  { name: 'wewrrwrrwe',
+    tts: false,
+    stt: false,
+    bg_clr: '#d04a4a',
+    h_clr: '#922424',
+    ucb_clr: '#968888',
+    bcb_clr: '#bb1212',
+    header: 'kgh',
+    id: 'd166921d6ee95d6e33fc9460e3d7b67f' },
+  { name: 'MyShop',
+    tts: false,
+    stt: false,
+    bg_clr: '#a38484',
+    h_clr: '#802a2a',
+    ucb_clr: '#7e6a6a',
+    bcb_clr: '#9e83ec',
+    header: 'Welcome to My Shop',
+    id: '2df3237b495a73dd5657b6856e1e0bfa' } ]
+[0mGET /api/projects [36m304 [0m3.038 ms - -[0m
+c578e4a2d309f7198b9e98e9dc112b69  ------ 1
+[0mGET /getintents/c578e4a2d309f7198b9e98e9dc112b69/1 [36m304 [0m237.410 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.774 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.615 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m2.423 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.404 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.642 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m4.419 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m3.026 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.115 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.632 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.350 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.623 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m2.389 ms - 2674[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.766 ms - 1558[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.591 ms - 2674[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.201 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.688 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m4.896 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.642 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.521 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.712 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.492 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.687 ms - -[0m
+Cookies :   undefined
+Cookies :   undefined
+Cookies :   undefined
+chatbot_nlu_training
+[0mGET /images/picasi.png [36m304 [0m1.414 ms - -[0m
+[ { name: 'Monica',
+    tts: true,
+    stt: true,
+    id: '7o1CcIO',
+    created_tm: 2018-05-29T15:02:21.080Z,
+    created_by: '' },
+  { name: 'Ricky',
+    tts: false,
+    stt: true,
+    id: '3Bd5S24',
+    created_tm: 2018-05-29T17:25:37.582Z,
+    created_by: '' },
+  { name: 'Rocky',
+    tts: true,
+    stt: true,
+    id: 'AOjmjvw',
+    created_tm: 2018-05-29T17:25:46.303Z,
+    created_by: '' },
+  { name: 'Rajan',
+    tts: true,
+    stt: true,
+    id: 'ynZodoW',
+    created_tm: 2018-05-29T17:25:52.254Z,
+    created_by: '' },
+  { name: 'Arnav',
+    tts: false,
+    stt: true,
+    id: 'KlIwZ5y',
+    created_tm: 2018-05-29T17:25:57.339Z,
+    created_by: '' },
+  { name: 'KP',
+    tts: true,
+    stt: false,
+    id: 'TOiAra3',
+    created_tm: 2018-05-29T17:26:02.102Z,
+    created_by: '' },
+  { name: 'Karan',
+    tts: true,
+    stt: true,
+    id: 'cWtA20g',
+    created_tm: 2018-05-29T17:26:18.783Z,
+    created_by: '' },
+  { name: 'Virtual Doctor',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor',
+    id: '2f8c97cc656226a8d9888548d423090b' },
+  { name: 'Virtual Doctor1',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor1',
+    id: 'b730ca05344a3e622e9cc94e8204be89' },
+  { name: 'Virtual Doctor11',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor11',
+    id: 'ff0e44eabb682fc861f8d0b29ffc21fd' },
+  { name: 'Virtual Doctor111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#2c2fce',
+    bcb_clr: '#127379',
+    header: 'Virtual Doctor111',
+    id: 'eb9c421391044307c28b3e60d59f16de' },
+  { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { name: 'sdsfsfdz',
+    tts: true,
+    stt: true,
+    bg_clr: '#792626',
+    h_clr: '#202e56',
+    ucb_clr: '#814e4e',
+    bcb_clr: '#2b0c0c',
+    header: 'cdvdvd',
+    id: '6262623eb8a391d6a05b563bf7498a1c' },
+  { name: 'Testing',
+    tts: true,
+    stt: true,
+    bg_clr: '#d70606',
+    h_clr: '#6d0e0e',
+    ucb_clr: '#dd4242',
+    bcb_clr: '#c88b8b',
+    header: 'Hello',
+    id: 'fa6a5a3224d7da66d9e0bdec25f62cf0' },
+  { name: 'sadadasd',
+    tts: false,
+    stt: false,
+    bg_clr: '#dd1111',
+    h_clr: '#e91010',
+    ucb_clr: '#2c43a2',
+    bcb_clr: '#660909',
+    header: 'asdasdadas',
+    id: '906cf64ccdaa40adb534b5320e20b313' },
+  { name: 'uot9yy0y8',
+    tts: false,
+    stt: false,
+    bg_clr: '#d1a2a2',
+    h_clr: '#db1f1f',
+    ucb_clr: '#d50a0a',
+    bcb_clr: '#661010',
+    header: 'oi789u',
+    id: '4acc9dd02f91a70d831c9fb1b36afbb3' },
+  { name: 'wewrrwrrwe',
+    tts: false,
+    stt: false,
+    bg_clr: '#d04a4a',
+    h_clr: '#922424',
+    ucb_clr: '#968888',
+    bcb_clr: '#bb1212',
+    header: 'kgh',
+    id: 'd166921d6ee95d6e33fc9460e3d7b67f' },
+  { name: 'MyShop',
+    tts: false,
+    stt: false,
+    bg_clr: '#a38484',
+    h_clr: '#802a2a',
+    ucb_clr: '#7e6a6a',
+    bcb_clr: '#9e83ec',
+    header: 'Welcome to My Shop',
+    id: '2df3237b495a73dd5657b6856e1e0bfa' } ]
+[0mGET /api/projects [36m304 [0m3.303 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.621 ms - -[0m
+[0mGET / [32m200 [0m1.591 ms - 3172[0m
+[0mPOST /register [0m- [0m- ms - -[0m
+Cookies :   undefined
+[0mPOST /register [0m- [0m- ms - -[0m
+Cookies :   undefined
+[0mPOST /register [0m- [0m- ms - -[0m
+Cookies :   undefined
+Cookies :   undefined
+[0mPOST /register [0m- [0m- ms - -[0m
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! chatbot_demo@1.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the chatbot_demo@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/rsa-key-20180624/.npm/_logs/2018-07-01T22_50_41_478Z-debug.log
+
+> chatbot_demo@1.0.0 start /home/einstien0001/Arnav/Picasi
+> node ./bin/www
+
+Mongo Connected !
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m4.459 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.862 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.522 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m16.799 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m2.265 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":299.15,"pressure":998,"humidity":83,"temp_min":299.15,"temp_max":299.15},"visibility":3500,"wind":{"speed":3.1,"deg":130},"clouds":{"all":75},"dt":1530554400,"sys":{"type":1,"id":7809,"message":0.1635,"country":"IN","sunrise":1530489421,"sunset":1530539543},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m357.781 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m6.402 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1531420200000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m14.289 ms - 1448[0m
+[0mPOST /api/appointments [32m200 [0m40.406 ms - 315[0m
+{ [Error: The 'To' number 09888690824 is not a valid phone number.]
+  status: 400,
+  message: 'The \'To\' number 09888690824 is not a valid phone number.',
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  detail: undefined }
+{ [Error: The 'To' number 09888690824 is not a valid phone number.]
+  status: 400,
+  message: 'The \'To\' number 09888690824 is not a valid phone number.',
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  detail: undefined }
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1532629800000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m3.412 ms - 1448[0m
+[0mPOST /api/appointments [32m200 [0m4.233 ms - 325[0m
+{ [Error: The 'To' number 9888690824 is not a valid phone number.]
+  status: 400,
+  message: 'The \'To\' number 9888690824 is not a valid phone number.',
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  detail: undefined }
+{ [Error: The 'To' number 9888690824 is not a valid phone number.]
+  status: 400,
+  message: 'The \'To\' number 9888690824 is not a valid phone number.',
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  detail: undefined }
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! chatbot_demo@1.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the chatbot_demo@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/rsa-key-20180624/.npm/_logs/2018-07-02T19_01_17_048Z-debug.log

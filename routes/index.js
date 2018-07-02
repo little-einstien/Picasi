@@ -218,18 +218,17 @@ router.get('/chkusr', function (req, res) {
         if (result) {
           console.log(result);
           db.close();
-          res.send("1");
+          res.send({data : "1"});
 
         } else {
-          res.cookie('cid', randomstring.generate(7)).send('0');
+          res.cookie('cid', randomstring.generate(7)).send({data : '0'});
 
         }
 
       });
     });
   } else {
-    res.cookie('cid', randomstring.generate(7)).send('Cookie is set');
-    res.send(0);
+    res.cookie('cid', randomstring.generate(7)).send({data : '0'});
   }
 });
 
