@@ -11,12 +11,6 @@
 #main-div-wrapper.widget-toggle {
 	height: 620px !important;
 } 
-@media(max-width:767px) {
-#main-div-wrapper.widget-toggle {
-    height: 100vh !important;
-	top:0px;
-}
-} 
 #main-div-wrapper{
 z-index: 999999999;
 }
@@ -37,22 +31,6 @@ z-index: 999999999;
     cursor: pointer;
     border-radius: 100%;
     background: orange; /*put backround color if you want below your icon any color*/
-}
-.chat-close {
-    background-size: cover;
-    top: 5px;
-    z-index: 1000000000;
-    width: auto;
-    height: auto;
-    margin-right: 5px;
-    color: #fff;
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 20px;
 }
 .chat-close:before {
     content: "\f057";
@@ -90,3 +68,26 @@ z-index: 999999999;
 :-moz-placeholder { /* Firefox 18- */
   color: #999;
 }
+
+@media(max-width:767px) {
+	#main-div-wrapper.widget-toggle {
+	    height: 100vh !important;
+		top:0px;
+	}
+	.chat-close {
+	    background-size: cover;
+	    top: 5px;
+	    z-index: 1000000000;
+	    width: auto;
+	    height: auto;
+	    margin-right: 5px;
+	    color: #fff;
+	    display: inline-block;
+	    font: normal normal normal 14px/1 FontAwesome;
+	    font-size: inherit;
+	    text-rendering: auto;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	    font-size: 20px;
+	}
+} 
