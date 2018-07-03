@@ -98,6 +98,9 @@ router.post('/', function (req, res) {
 	}).catch((err)=>{
 		console.log(err);
 	});
+	updateSlotOnAppointment(appointment.date,appointment.slot.l,1).then((isUpdated) => {
+		console.log('Slot updated'+ isUpdated);
+	})
 /*        nodemailer.createTestAccount((err, account) => {
             // create reusable transporter object using the default SMTP transport
             let transporter = nodemailer.createTransport({
@@ -277,6 +280,36 @@ function updateAppointment(params, appointment) {
                 resolve(appointment);
             }
         });
+    });
+}
+function updateSlotOnAppointment(date,slot,status) {
+    return new Promise(function (resolve, reject) {
+        var where = {
+			"date": date,"m_slt.l":slot
+		}
+	var set = {$set : {"m_slt.$.status":status}}
+        let db = mongodb.get().db(config.mongo.db);
+        //Find the first document in the customers collection:
+        db.collection(config.mongo.slots_col).update(where, set, function (err, result) {
+		if (err) {
+                                throw err;
+                                reject(false)
+                        }else{ 
+	  where = {
+                        "date": date,"e_slt.l":slot
+                }
+        set = {$set : {"e_slt.$.status":status}}	
+db.collection(config.mongo.slots_col).update(where, set, function (err, result) {	
+            		if (err) {
+                		throw err;
+
+                		reject(false)
+            		} else {
+                		resolve(true);
+            		}
+        	});
+		}
+	});
     });
 }
 

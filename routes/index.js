@@ -9,7 +9,7 @@ const FAILURE = "failure";
 const SUCCESS = "success";
 const MAX_RECORD_PERPAGE = 10;
 var contentDisposition = require('content-disposition')
-router.get('/downlaodtandc', function (req, res) {
+router.get('/downloadtandc', function (req, res) {
   var filePath = '/home/einstien0001/Arnav/Picasi/public/Appointments.pdf';
   res.setHeader('Content-disposition', 'attachment; filename=appointment.pdf');
   res.setHeader('Content-Type', 'application/pdf');
