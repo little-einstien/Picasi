@@ -211,6 +211,10 @@ router.delete('/:id', function (req, res) {
    updateAppointment({id: req.params.id},{$set:{status : 0 }}).then(() => {
 	getAppointments({id : req.params.id}).then((data) => {
 		let appointment = data.data[0];
+		updateSlotOnAppointment(appointment.date,appointment.slot.l,0).then((isUpdated) => {
+			console.log('Slot updated'+ isUpdated);
+		})
+	
 	let date = new Date(appointment.date);
         let hrs_mins = appointment.slot.l.split(":");
         date.setHours(hrs_mins[0]);
