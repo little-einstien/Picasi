@@ -5,7 +5,6 @@
 	bottom: 0px; /*used for bottom spacing from window*/
 	width: 100%;
 	max-width: 400px;
-	top:0px;
 	/* background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
 }
 
@@ -15,6 +14,7 @@
 @media(max-width:767px) {
 #main-div-wrapper.widget-toggle {
     height: 100vh !important;
+	top:0px;
 }
 } 
 #main-div-wrapper{
