@@ -80,6 +80,7 @@ router.post('/', function (req, res) {
     appointment.u_dt = new Date();
     appointment.id  = `AP${randomstring.generate(7)}`;
     appointment.status =  1;
+    appointment.pmode = req.body.pmode;
     appointment.remarks =  req.body.remarks;
     appointment.user.id = req.body.user.id;
     appointment.user.name = req.body.user.name;

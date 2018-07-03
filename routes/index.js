@@ -8,6 +8,22 @@ const CHATBOT_DATA_DIR = "chatbots";
 const FAILURE = "failure";
 const SUCCESS = "success";
 const MAX_RECORD_PERPAGE = 10;
+var contentDisposition = require('content-disposition')
+router.get('/downlaodtandc', function (req, res) {
+  var filePath = '/home/einstien0001/Arnav/Picasi/public/Appointments.pdf';
+  res.setHeader('Content-disposition', 'attachment; filename=appointment.pdf');
+  res.setHeader('Content-Type', 'application/pdf');
+  var stream = fs.createReadStream(filePath)
+console.log('Befor stream');
+try{    
+stream.pipe(res)
+}catch(err){
+	console.log(err);
+}
+console.log('After stream')
+});
+
+
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', {
