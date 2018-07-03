@@ -2,14 +2,20 @@
 	height: 0px;		
 	position: fixed;
 	right: 0px; /*used for right spacing from window*/
-	bottom: 10px; /*used for bottom spacing from window*/
+	bottom: 0px; /*used for bottom spacing from window*/
 	width: 100%;
 	max-width: 400px;
+	top:0px;
 	/* background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
 }
 
 #main-div-wrapper.widget-toggle {
 	height: 620px !important;
+} 
+@media(max-width:767px) {
+#main-div-wrapper.widget-toggle {
+    height: 100vh !important;
+}
 } 
 #main-div-wrapper{
 z-index: 999999999;
