@@ -5,9 +5,9 @@ var chatbot_url = "http://35.200.198.3:4201/project/"+pid;
 function initbot() {
     $('head').append('<link rel="stylesheet" type="text/css" href="'+APP_URL+'/plugin/css/widget.css">');
     $('head').append('<link rel="stylesheet" type="text/css" href="https://daneden.github.io/animate.css/animate.min.css">');
-    $("body").append('<div id="main-div-wrapper" class="animated"></div>');
+    $("body").append('<div id="main-div-wrapper" class="animated widget-toggle"></div>');
     var ifrm = document.createElement("iframe");
-    ifrm.setAttribute("src", "");
+    ifrm.setAttribute("src", chatbot_url);
     ifrm.setAttribute("id", "bot-frame");
     ifrm.setAttribute("allow" , "geolocation");
     ifrm.style.width = "100%";
@@ -17,7 +17,7 @@ function initbot() {
     document.getElementById('main-div-wrapper').appendChild(ifrm);
     
     var createDiv =  document.createElement("div");
-    createDiv.className = 'chatbot-icon chat-icon animated fadeIn '
+    createDiv.className = 'chatbot-icon chat-close animated fadeIn '
     createDiv.id = 'chatboticon'
     //createDiv.innerHTML = '<img src="'+APP_URL+'/plugin/images/chatbot.png" alt="ChatBot" />';
     document.body.appendChild(createDiv);
@@ -28,9 +28,9 @@ function initbot() {
 initbot();
 
 $('.chatbot-icon').click(function(){
-    if(!$('#bot-frame').attr('src')){
-	$('#bot-frame').attr('src',chatbot_url);
-    }
+//     if(!$('#bot-frame').attr('src')){
+// 	$('#bot-frame').attr('src',chatbot_url);
+//     }
 //setTimeout(function() {
     $('#main-div-wrapper').toggleClass('widget-toggle');
     //$(this).hide();
