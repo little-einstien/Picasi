@@ -74674,3 +74674,4953 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /home/rsa-key-20180624/.npm/_logs/2018-07-03T21_56_11_850Z-debug.log
+
+> chatbot_demo@1.0.0 start /home/einstien0001/Arnav/Picasi
+> node ./bin/www
+
+Mongo Connected !
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69' }
+{ pid: 'f7W18EB', status: 1 }
+chatbot_nlu_training
+[ { _id: 5b389f10816c14144ff1bc2c,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f39816c14144ff1bc3e,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f40816c14144ff1bc42,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc45,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc48,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc4b,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc4e,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389fa7816c14144ff1bc8a,
+    for: 'Hair loss',
+    title: 'Thanks, Could you share the details below further?',
+    data: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389fc4816c14144ff1bc95,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389ff3816c14144ff1bcb3,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b38a009816c14144ff1bcba,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b38a0d3816c14144ff1bcfb,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b38f620816c14144ff1d132,
+    for: 'Hair loss',
+    title: 'Thanks, Could you share the details below further?',
+    data: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b39c12d816c14144ff22b85,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b0d39816c14144ff299d3,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b0d69816c14144ff299df,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b66a2816c14144ff2ad7e,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b66b7816c14144ff2ad85,
+    for: 'Hair loss',
+    title: 'Thanks, Could you share the details below further?',
+    data: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/forms/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m25.057 ms - -[0m
+[ { _id: 5b3a77269dc18c310e1ab0dd,
+    user: 
+     { id: 'ww',
+       name: 'Arnav',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1531938600000,
+    slot: { id: 's1530513600000', l: '12:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-02T19:04:06.062Z,
+    u_dt: 2018-07-02T19:04:06.062Z,
+    id: 'APP0CalFM',
+    status: 1,
+    remarks: null },
+  { _id: 5b3af91afa5839323fb199e6,
+    user: 
+     { id: 'ww',
+       name: 'puneet',
+       mobile: '9910266770',
+       email: 'puneet_agarwal@rediffmail.com' },
+    date: 1531120200000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T04:18:34.470Z,
+    u_dt: 2018-07-03T04:18:34.470Z,
+    id: 'APMpBnDOA',
+    status: 1,
+    remarks: 'skin allergy on face' },
+  { _id: 5b3afb4efa5839323fb199e7,
+    user: 
+     { id: 'ww',
+       name: 'Anil',
+       mobile: '9868460736',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1530768600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T04:27:58.118Z,
+    u_dt: 2018-07-03T04:27:58.118Z,
+    id: 'APgjfi9A0',
+    status: 1,
+    remarks: 'pain' },
+  { _id: 5b3b0200fa5839323fb199ea,
+    user: 
+     { id: 'ww',
+       name: 'Anil',
+       mobile: '9716129478',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1531724400000,
+    slot: { id: 's1530514800000', l: '12:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T04:56:32.433Z,
+    u_dt: 2018-07-03T04:56:32.433Z,
+    id: 'APcFCUmfA',
+    status: 1,
+    remarks: 'i have pain in my head' },
+  { _id: 5b3b3898d7ec364897003b19,
+    user: 
+     { id: 'ww',
+       name: 'Arnav simer',
+       mobile: '9888690824',
+       email: 'Arnavsimer@ymail.com' },
+    date: 1530944400000,
+    slot: { id: 's1530512400000', l: '11:50', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T08:49:28.548Z,
+    u_dt: 2018-07-03T08:49:28.548Z,
+    id: 'APApjFkdg',
+    status: 1,
+    remarks: 'Hair loss' },
+  { _id: 5b3b44c5d7ec364897003b1a,
+    user: 
+     { id: 'ww',
+       name: 'kamal kumar tyagi',
+       mobile: '9999911811',
+       email: 'kktyagi@gmail.com' },
+    date: 1530769200000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T09:41:25.026Z,
+    u_dt: 2018-07-03T09:41:25.026Z,
+    id: 'APwkYvvZr',
+    status: 1,
+    remarks: 'skin' },
+  { _id: 5b3b4918d7ec364897003b1b,
+    user: { id: 'ww', name: 'ggeeta', mobile: '9910221580', email: null },
+    date: 1530771000000,
+    slot: { id: 's1530511800000', l: '11:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T09:59:52.161Z,
+    u_dt: 2018-07-03T09:59:52.161Z,
+    id: 'APTmWRFmX',
+    status: 1,
+    remarks: null },
+  { _id: 5b3b6673d7ec364897003b1c,
+    user: { id: 'ww', name: 'umang', mobile: '9555104104', email: null },
+    date: 1530773400000,
+    slot: { id: 's1530514200000', l: '12:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T12:05:07.150Z,
+    u_dt: 2018-07-03T12:05:07.150Z,
+    id: 'APBPDj9MR',
+    status: 1,
+    remarks: 'skin' },
+  { _id: 5b3b74cbd7ec364897003b1d,
+    user: 
+     { id: 'ww',
+       name: 'Anil Kumar Chaudhary',
+       mobile: '9716129478',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1531382400000,
+    slot: { id: 's1530518400000', l: '13:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T13:06:19.459Z,
+    u_dt: 2018-07-03T13:06:19.459Z,
+    id: 'AP2XCh1By',
+    status: 1,
+    remarks: 'Pain' },
+  { _id: 5b3b91a7d7ec364897003b1e,
+    user: { id: 'ww', name: 'Puneet', mobile: '9910266770', email: null },
+    date: 1530798600000,
+    slot: { id: 's1530539400000', l: '19:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T15:09:27.422Z,
+    u_dt: 2018-07-03T15:09:27.422Z,
+    id: 'APAGSfbsI',
+    status: 1,
+    remarks: '' },
+  { _id: 5b3ba275d7ec364897003b1f,
+    user: { id: 'ww', name: 'Rajshree', mobile: '9810270580', email: null },
+    date: 1530859200000,
+    slot: { id: 's1530513600000', l: '12:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T16:21:09.979Z,
+    u_dt: 2018-07-03T16:21:09.979Z,
+    id: 'APj2TYfTc',
+    status: 1,
+    remarks: null },
+  { _id: 5b3ba395d7ec364897003b20,
+    user: { id: 'ww', name: 'Dr geeta', mobile: '9910221580', email: null },
+    date: 1530768600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T16:25:57.575Z,
+    u_dt: 2018-07-03T16:25:57.575Z,
+    id: 'APF2zMrAJ',
+    status: 1,
+    remarks: null },
+  { _id: 5b3bae15d7ec364897003b21,
+    user: { id: 'ww', name: 'geeta', mobile: '9910270580', email: null },
+    date: 1530768600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T17:10:45.289Z,
+    u_dt: 2018-07-03T17:10:45.289Z,
+    id: 'APHljmu0I',
+    status: 1,
+    remarks: null },
+  { _id: 5b3bb1cfd7ec364897003b22,
+    user: 
+     { id: 'ww',
+       name: 'anil',
+       mobile: '9868460736',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1532068200000,
+    slot: { id: 's1530513000000', l: '12:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T17:26:39.982Z,
+    u_dt: 2018-07-03T17:26:39.982Z,
+    id: 'APNdAEDon',
+    status: 1,
+    remarks: 'i have pain in my body and temp.' },
+  { _id: 5b3bbc0a3bcdf25835f4937c,
+    user: { id: 'ww', name: 'Geeta', mobile: '9910221580', email: '' },
+    date: 1530941400000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:10:18.366Z,
+    u_dt: 2018-07-03T18:10:18.366Z,
+    id: 'APTnIoz2Y',
+    status: 1,
+    remarks: null },
+  { _id: 5b3bbd503bcdf25835f4937d,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1533015600000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:15:44.454Z,
+    u_dt: 2018-07-03T18:15:44.454Z,
+    id: 'APbmZvoYI',
+    status: 1,
+    remarks: 'ssdsds' },
+  { _id: 5b3bbe703bcdf25835f4937e,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532416200000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:20:32.396Z,
+    u_dt: 2018-07-03T18:20:32.396Z,
+    id: 'APSZ9bYem',
+    status: 1,
+    remarks: 'aasasasas' },
+  { _id: 5b3bbf519c58b159e28df347,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532931000000,
+    slot: { id: 's1530511800000', l: '11:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:24:17.363Z,
+    u_dt: 2018-07-03T18:24:17.363Z,
+    id: 'AP0jNSIGN',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'sadads' },
+  { _id: 5b3bd0de03de245eb2efb6ae,
+    user: 
+     { id: 'ww',
+       name: 'sasdf',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1531551000000,
+    slot: { id: 's1530514200000', l: '12:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T19:39:10.851Z,
+    u_dt: 2018-07-03T19:39:10.851Z,
+    id: 'APt8SjWqY',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3bd38d764b175f3eb05e82,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530797400000,
+    slot: { id: 's1530538200000', l: '19:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T19:50:37.508Z,
+    u_dt: 2018-07-03T19:50:37.508Z,
+    id: 'APVFshbeY',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3be188fb18076155cf4594,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329800000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T20:50:16.092Z,
+    u_dt: 2018-07-03T20:50:16.092Z,
+    id: 'APg93pbAh',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'Small bimari' },
+  { _id: 5b3be67ede950262255025e2,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532332800000,
+    slot: { id: 's1530518400000', l: '13:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:11:26.820Z,
+    u_dt: 2018-07-03T21:11:26.820Z,
+    id: 'APyscRPNz',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3be78266728b625f06bb43,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329200000,
+    slot: { id: 's1530514800000', l: '12:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:15:46.154Z,
+    u_dt: 2018-07-03T21:15:46.154Z,
+    id: 'APlyGhrWY',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3be8d4966848628f9566df,
+    user: 
+     { id: 'ww',
+       name: 'sd',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329800000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:21:24.368Z,
+    u_dt: 2018-07-03T21:21:24.368Z,
+    id: 'APlSfG3WB',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3be977966848628f9566e0,
+    user: 
+     { id: 'ww',
+       name: 'qs',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329800000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:24:07.768Z,
+    u_dt: 2018-07-03T21:24:07.768Z,
+    id: 'APnvpOMhm',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3beea63d9e4b6338bbb503,
+    user: 
+     { id: 'ww',
+       name: 'dffdg',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532284200000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:46:14.694Z,
+    u_dt: 2018-07-03T21:46:14.694Z,
+    id: 'AP9OEyMTo',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'jkbjk' } ]
+[0mGET /api/appointments/f7W18EB [32m200 [0m473.235 ms - 8643[0m
+chatbot_nlu_training
+[ { _id: 5b3beea63d9e4b6338bbb503,
+    user: 
+     { id: 'ww',
+       name: 'dffdg',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532284200000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:46:14.694Z,
+    u_dt: 2018-07-03T21:46:14.694Z,
+    id: 'AP9OEyMTo',
+    status: 0,
+    pmode: 'cash',
+    remarks: 'jkbjk' } ]
+[0mDELETE /api/appointments/AP9OEyMTo [32m200 [0m17.714 ms - 369[0m
+Slot updatedtrue
+SM768e4010ea0c457486d8fcb8aec8b215
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Your appointment with appointment id  AP9OEyMTo on Sun, 22 Jul 2018 12:40:00 GMT is cancelled by doctor please reschedule it',
+  dateCreated: 2018-07-03T22:12:34.000Z,
+  dateUpdated: 2018-07-03T22:12:34.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SM768e4010ea0c457486d8fcb8aec8b215',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM768e4010ea0c457486d8fcb8aec8b215/Media.json' },
+  to: '+919888690824',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM768e4010ea0c457486d8fcb8aec8b215.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SM768e4010ea0c457486d8fcb8aec8b215' } }
+{ pid: 'f7W18EB', status: 1 }
+chatbot_nlu_training
+[ { _id: 5b3a77269dc18c310e1ab0dd,
+    user: 
+     { id: 'ww',
+       name: 'Arnav',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1531938600000,
+    slot: { id: 's1530513600000', l: '12:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-02T19:04:06.062Z,
+    u_dt: 2018-07-02T19:04:06.062Z,
+    id: 'APP0CalFM',
+    status: 1,
+    remarks: null },
+  { _id: 5b3af91afa5839323fb199e6,
+    user: 
+     { id: 'ww',
+       name: 'puneet',
+       mobile: '9910266770',
+       email: 'puneet_agarwal@rediffmail.com' },
+    date: 1531120200000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T04:18:34.470Z,
+    u_dt: 2018-07-03T04:18:34.470Z,
+    id: 'APMpBnDOA',
+    status: 1,
+    remarks: 'skin allergy on face' },
+  { _id: 5b3afb4efa5839323fb199e7,
+    user: 
+     { id: 'ww',
+       name: 'Anil',
+       mobile: '9868460736',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1530768600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T04:27:58.118Z,
+    u_dt: 2018-07-03T04:27:58.118Z,
+    id: 'APgjfi9A0',
+    status: 1,
+    remarks: 'pain' },
+  { _id: 5b3b0200fa5839323fb199ea,
+    user: 
+     { id: 'ww',
+       name: 'Anil',
+       mobile: '9716129478',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1531724400000,
+    slot: { id: 's1530514800000', l: '12:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T04:56:32.433Z,
+    u_dt: 2018-07-03T04:56:32.433Z,
+    id: 'APcFCUmfA',
+    status: 1,
+    remarks: 'i have pain in my head' },
+  { _id: 5b3b3898d7ec364897003b19,
+    user: 
+     { id: 'ww',
+       name: 'Arnav simer',
+       mobile: '9888690824',
+       email: 'Arnavsimer@ymail.com' },
+    date: 1530944400000,
+    slot: { id: 's1530512400000', l: '11:50', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T08:49:28.548Z,
+    u_dt: 2018-07-03T08:49:28.548Z,
+    id: 'APApjFkdg',
+    status: 1,
+    remarks: 'Hair loss' },
+  { _id: 5b3b44c5d7ec364897003b1a,
+    user: 
+     { id: 'ww',
+       name: 'kamal kumar tyagi',
+       mobile: '9999911811',
+       email: 'kktyagi@gmail.com' },
+    date: 1530769200000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T09:41:25.026Z,
+    u_dt: 2018-07-03T09:41:25.026Z,
+    id: 'APwkYvvZr',
+    status: 1,
+    remarks: 'skin' },
+  { _id: 5b3b4918d7ec364897003b1b,
+    user: { id: 'ww', name: 'ggeeta', mobile: '9910221580', email: null },
+    date: 1530771000000,
+    slot: { id: 's1530511800000', l: '11:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T09:59:52.161Z,
+    u_dt: 2018-07-03T09:59:52.161Z,
+    id: 'APTmWRFmX',
+    status: 1,
+    remarks: null },
+  { _id: 5b3b6673d7ec364897003b1c,
+    user: { id: 'ww', name: 'umang', mobile: '9555104104', email: null },
+    date: 1530773400000,
+    slot: { id: 's1530514200000', l: '12:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T12:05:07.150Z,
+    u_dt: 2018-07-03T12:05:07.150Z,
+    id: 'APBPDj9MR',
+    status: 1,
+    remarks: 'skin' },
+  { _id: 5b3b74cbd7ec364897003b1d,
+    user: 
+     { id: 'ww',
+       name: 'Anil Kumar Chaudhary',
+       mobile: '9716129478',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1531382400000,
+    slot: { id: 's1530518400000', l: '13:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T13:06:19.459Z,
+    u_dt: 2018-07-03T13:06:19.459Z,
+    id: 'AP2XCh1By',
+    status: 1,
+    remarks: 'Pain' },
+  { _id: 5b3b91a7d7ec364897003b1e,
+    user: { id: 'ww', name: 'Puneet', mobile: '9910266770', email: null },
+    date: 1530798600000,
+    slot: { id: 's1530539400000', l: '19:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T15:09:27.422Z,
+    u_dt: 2018-07-03T15:09:27.422Z,
+    id: 'APAGSfbsI',
+    status: 1,
+    remarks: '' },
+  { _id: 5b3ba275d7ec364897003b1f,
+    user: { id: 'ww', name: 'Rajshree', mobile: '9810270580', email: null },
+    date: 1530859200000,
+    slot: { id: 's1530513600000', l: '12:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T16:21:09.979Z,
+    u_dt: 2018-07-03T16:21:09.979Z,
+    id: 'APj2TYfTc',
+    status: 1,
+    remarks: null },
+  { _id: 5b3ba395d7ec364897003b20,
+    user: { id: 'ww', name: 'Dr geeta', mobile: '9910221580', email: null },
+    date: 1530768600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T16:25:57.575Z,
+    u_dt: 2018-07-03T16:25:57.575Z,
+    id: 'APF2zMrAJ',
+    status: 1,
+    remarks: null },
+  { _id: 5b3bae15d7ec364897003b21,
+    user: { id: 'ww', name: 'geeta', mobile: '9910270580', email: null },
+    date: 1530768600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T17:10:45.289Z,
+    u_dt: 2018-07-03T17:10:45.289Z,
+    id: 'APHljmu0I',
+    status: 1,
+    remarks: null },
+  { _id: 5b3bb1cfd7ec364897003b22,
+    user: 
+     { id: 'ww',
+       name: 'anil',
+       mobile: '9868460736',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1532068200000,
+    slot: { id: 's1530513000000', l: '12:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T17:26:39.982Z,
+    u_dt: 2018-07-03T17:26:39.982Z,
+    id: 'APNdAEDon',
+    status: 1,
+    remarks: 'i have pain in my body and temp.' },
+  { _id: 5b3bbc0a3bcdf25835f4937c,
+    user: { id: 'ww', name: 'Geeta', mobile: '9910221580', email: '' },
+    date: 1530941400000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:10:18.366Z,
+    u_dt: 2018-07-03T18:10:18.366Z,
+    id: 'APTnIoz2Y',
+    status: 1,
+    remarks: null },
+  { _id: 5b3bbd503bcdf25835f4937d,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1533015600000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:15:44.454Z,
+    u_dt: 2018-07-03T18:15:44.454Z,
+    id: 'APbmZvoYI',
+    status: 1,
+    remarks: 'ssdsds' },
+  { _id: 5b3bbe703bcdf25835f4937e,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532416200000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:20:32.396Z,
+    u_dt: 2018-07-03T18:20:32.396Z,
+    id: 'APSZ9bYem',
+    status: 1,
+    remarks: 'aasasasas' },
+  { _id: 5b3bbf519c58b159e28df347,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532931000000,
+    slot: { id: 's1530511800000', l: '11:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:24:17.363Z,
+    u_dt: 2018-07-03T18:24:17.363Z,
+    id: 'AP0jNSIGN',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'sadads' },
+  { _id: 5b3bd0de03de245eb2efb6ae,
+    user: 
+     { id: 'ww',
+       name: 'sasdf',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1531551000000,
+    slot: { id: 's1530514200000', l: '12:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T19:39:10.851Z,
+    u_dt: 2018-07-03T19:39:10.851Z,
+    id: 'APt8SjWqY',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3bd38d764b175f3eb05e82,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530797400000,
+    slot: { id: 's1530538200000', l: '19:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T19:50:37.508Z,
+    u_dt: 2018-07-03T19:50:37.508Z,
+    id: 'APVFshbeY',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3be188fb18076155cf4594,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329800000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T20:50:16.092Z,
+    u_dt: 2018-07-03T20:50:16.092Z,
+    id: 'APg93pbAh',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'Small bimari' },
+  { _id: 5b3be67ede950262255025e2,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532332800000,
+    slot: { id: 's1530518400000', l: '13:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:11:26.820Z,
+    u_dt: 2018-07-03T21:11:26.820Z,
+    id: 'APyscRPNz',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3be78266728b625f06bb43,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329200000,
+    slot: { id: 's1530514800000', l: '12:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:15:46.154Z,
+    u_dt: 2018-07-03T21:15:46.154Z,
+    id: 'APlyGhrWY',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3be8d4966848628f9566df,
+    user: 
+     { id: 'ww',
+       name: 'sd',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329800000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:21:24.368Z,
+    u_dt: 2018-07-03T21:21:24.368Z,
+    id: 'APlSfG3WB',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3be977966848628f9566e0,
+    user: 
+     { id: 'ww',
+       name: 'qs',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329800000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:24:07.768Z,
+    u_dt: 2018-07-03T21:24:07.768Z,
+    id: 'APnvpOMhm',
+    status: 1,
+    pmode: 'cash',
+    remarks: null } ]
+[0mGET /api/appointments/f7W18EB [32m200 [0m6.955 ms - 8301[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69' }
+[ { _id: 5b389f10816c14144ff1bc2c,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f39816c14144ff1bc3e,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f40816c14144ff1bc42,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc45,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc48,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc4b,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc4e,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389fa7816c14144ff1bc8a,
+    for: 'Hair loss',
+    title: 'Thanks, Could you share the details below further?',
+    data: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389fc4816c14144ff1bc95,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389ff3816c14144ff1bcb3,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b38a009816c14144ff1bcba,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b38a0d3816c14144ff1bcfb,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b38f620816c14144ff1d132,
+    for: 'Hair loss',
+    title: 'Thanks, Could you share the details below further?',
+    data: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b39c12d816c14144ff22b85,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b0d39816c14144ff299d3,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b0d69816c14144ff299df,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b66a2816c14144ff2ad7e,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b66b7816c14144ff2ad85,
+    for: 'Hair loss',
+    title: 'Thanks, Could you share the details below further?',
+    data: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/forms/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m9.346 ms - -[0m
+chatbot_nlu_training
+[ { _id: 5b3be977966848628f9566e0,
+    user: 
+     { id: 'ww',
+       name: 'qs',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329800000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:24:07.768Z,
+    u_dt: 2018-07-03T21:24:07.768Z,
+    id: 'APnvpOMhm',
+    status: 0,
+    pmode: 'cash',
+    remarks: null } ]
+[0mDELETE /api/appointments/APnvpOMhm [32m200 [0m6.120 ms - 363[0m
+Slot updatedtrue
+SM43944d155b9c4225bcb704b193851a7a
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Your appointment with appointment id  APnvpOMhm on Mon, 23 Jul 2018 12:40:00 GMT is cancelled by doctor please reschedule it',
+  dateCreated: 2018-07-03T22:13:44.000Z,
+  dateUpdated: 2018-07-03T22:13:44.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SM43944d155b9c4225bcb704b193851a7a',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM43944d155b9c4225bcb704b193851a7a/Media.json' },
+  to: '+919888690824',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM43944d155b9c4225bcb704b193851a7a.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SM43944d155b9c4225bcb704b193851a7a' } }
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m2.581 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.707 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.593 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m5.536 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m2.051 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":201,"main":"Thunderstorm","description":"thunderstorm with rain","icon":"11d"}],"base":"stations","main":{"temp":299.15,"pressure":999,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":1200,"wind":{"speed":4.1,"deg":30,"gust":9.3},"clouds":{"all":90},"dt":1530667800,"sys":{"type":1,"id":7809,"message":0.0072,"country":"IN","sunrise":1530662253,"sunset":1530712339},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m144.513 ms - 499[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m5.511 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1531333800000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m15.972 ms - 1448[0m
+[0mPOST /api/appointments [32m200 [0m35.921 ms - 366[0m
+Slot updatedtrue
+SMe9e14116ea0743d2bb038ef407af10e6
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Wed, 11 Jul 2018 11:00:00 GMT.Your appointment id is APTURKJF7',
+  dateCreated: 2018-07-04T02:06:56.000Z,
+  dateUpdated: 2018-07-04T02:06:56.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SMe9e14116ea0743d2bb038ef407af10e6',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SMe9e14116ea0743d2bb038ef407af10e6/Media.json' },
+  to: '+919716129478',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SMe9e14116ea0743d2bb038ef407af10e6.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SMe9e14116ea0743d2bb038ef407af10e6' } }
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1531333800000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.599 ms - 1459[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.566 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.439 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.574 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.991 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.877 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":999,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2000,"wind":{"speed":5.1,"deg":60},"clouds":{"all":90},"dt":1530669600,"sys":{"type":1,"id":7809,"message":0.0065,"country":"IN","sunrise":1530662254,"sunset":1530712339},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m138.576 ms - 462[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.274 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530729000000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.712 ms - 1448[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.581 ms - -[0m
+[0mGET /plugin/css/widget.css [32m200 [0m2.442 ms - 2157[0m
+[0mGET /images/picasi.png [36m304 [0m0.468 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.924 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.709 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":999,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2000,"wind":{"speed":5.1,"deg":60},"clouds":{"all":90},"dt":1530669600,"sys":{"type":1,"id":7809,"message":0.0065,"country":"IN","sunrise":1530662254,"sunset":1530712339},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m136.939 ms - 462[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.518 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m4.147 ms - 1448[0m
+[0mPOST /api/appointments [32m200 [0m4.639 ms - 310[0m
+Slot updatedtrue
+SMdd4b114d73fe4d0a97e0b81628f8e567
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Thu, 05 Jul 2018 12:40:00 GMT.Your appointment id is APdpyneHc',
+  dateCreated: 2018-07-04T03:09:43.000Z,
+  dateUpdated: 2018-07-04T03:09:43.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SMdd4b114d73fe4d0a97e0b81628f8e567',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SMdd4b114d73fe4d0a97e0b81628f8e567/Media.json' },
+  to: '+919910266770',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SMdd4b114d73fe4d0a97e0b81628f8e567.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SMdd4b114d73fe4d0a97e0b81628f8e567' } }
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.512 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.470 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.447 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.703 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.843 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":999,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2000,"wind":{"speed":5.1,"deg":60},"clouds":{"all":90},"dt":1530669600,"sys":{"type":1,"id":7809,"message":0.0065,"country":"IN","sunrise":1530662254,"sunset":1530712339},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m128.583 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.621 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.648 ms - 1459[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.544 ms - 1459[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m4.128 ms - 1459[0m
+[0mPOST /api/appointments [32m200 [0m3.633 ms - 297[0m
+Slot updatedtrue
+SMdacb9bbd5e844d46817fd0f04b00487c
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Thu, 05 Jul 2018 12:00:00 GMT.Your appointment id is APvmCalY7',
+  dateCreated: 2018-07-04T03:12:45.000Z,
+  dateUpdated: 2018-07-04T03:12:45.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SMdacb9bbd5e844d46817fd0f04b00487c',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SMdacb9bbd5e844d46817fd0f04b00487c/Media.json' },
+  to: '+919910221580',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SMdacb9bbd5e844d46817fd0f04b00487c.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SMdacb9bbd5e844d46817fd0f04b00487c' } }
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530901800000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.596 ms - 1448[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.577 ms - 1470[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.718 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.666 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":1000,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2500,"wind":{"speed":3.6,"deg":350},"clouds":{"all":90},"dt":1530671400,"sys":{"type":1,"id":7809,"message":0.0125,"country":"IN","sunrise":1530662254,"sunset":1530712339},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m147.966 ms - 464[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.011 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530729000000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.482 ms - 1448[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m2.504 ms - 228[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m1.839 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":1000,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2500,"wind":{"speed":3.6,"deg":350},"clouds":{"all":90},"dt":1530671400,"sys":{"type":1,"id":7809,"message":0.0125,"country":"IN","sunrise":1530662254,"sunset":1530712339},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m130.777 ms - 464[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.868 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.686 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.756 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":1000,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2500,"wind":{"speed":3.6,"deg":350},"clouds":{"all":90},"dt":1530671400,"sys":{"type":1,"id":7809,"message":0.0125,"country":"IN","sunrise":1530662254,"sunset":1530712339},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m127.280 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.883 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.803 ms - 1470[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.941 ms - 2674[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.652 ms - 2157[0m
+[0mGET /images/picasi.png [32m200 [0m0.629 ms - 41616[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m2.646 ms - 228[0m
+Cookies :   undefined
+[0mGET /chkusr [32m200 [0m0.812 ms - 12[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":1000,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2500,"wind":{"speed":3.6,"deg":350},"clouds":{"all":90},"dt":1530671400,"sys":{"type":1,"id":7809,"message":0.0067,"country":"IN","sunrise":1530662254,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m142.188 ms - 464[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m4.114 ms - 12748[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.447 ms - 1470[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.521 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.404 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.392 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.928 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.716 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":1000,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2500,"wind":{"speed":3.6,"deg":350},"clouds":{"all":90},"dt":1530671400,"sys":{"type":1,"id":7809,"message":0.0067,"country":"IN","sunrise":1530662254,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m128.071 ms - 464[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.918 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1531679400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.386 ms - 1448[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.395 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.423 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.405 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.391 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m7.774 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.632 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":1000,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2500,"wind":{"speed":3.6,"deg":350},"clouds":{"all":90},"dt":1530671400,"sys":{"type":1,"id":7809,"message":0.0067,"country":"IN","sunrise":1530662254,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m129.018 ms - 464[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.925 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1531679400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.852 ms - 1448[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.558 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.721 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":1000,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2500,"wind":{"speed":3.6,"deg":350},"clouds":{"all":90},"dt":1530671400,"sys":{"type":1,"id":7809,"message":0.0067,"country":"IN","sunrise":1530662254,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m132.026 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.881 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[]
+[0mPOST /api/slots/u/arnav [32m200 [0m3.566 ms - 30[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1531333800000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m4.175 ms - 1459[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.394 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.458 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.466 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.545 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.653 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":299.15,"pressure":1000,"humidity":94,"temp_min":299.15,"temp_max":299.15},"visibility":2500,"wind":{"speed":3.6,"deg":350},"clouds":{"all":90},"dt":1530671400,"sys":{"type":1,"id":7809,"message":0.0067,"country":"IN","sunrise":1530662254,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m128.084 ms - 464[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.822 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.897 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.546 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.767 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0054,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m133.201 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.041 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1531938600000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.422 ms - 1448[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.390 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.386 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.438 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.514 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.676 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.452 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0054,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m128.088 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.947 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[]
+[0mPOST /api/slots/u/arnav [32m200 [0m4.143 ms - 30[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1532111400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m10.046 ms - 1448[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m4.927 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.486 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m1.556 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.428 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.393 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.510 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.717 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0054,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m128.692 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.178 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1531765800000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.839 ms - 1448[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.747 ms - 2674[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.610 ms - 2157[0m
+[0mGET /images/picasi.png [32m200 [0m0.610 ms - 41616[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.395 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.639 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0054,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m127.643 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.942 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1531765800000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.171 ms - 1448[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.583 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.475 ms - 2674[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.558 ms - 2157[0m
+[0mGET /images/picasi.png [32m200 [0m0.531 ms - 41616[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.428 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.653 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0054,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m127.737 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.821 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.466 ms - -[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.586 ms - 2157[0m
+[0mGET /images/picasi.png [36m304 [0m0.403 ms - -[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.379 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.433 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.392 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m2.706 ms - 228[0m
+Cookies :   undefined
+[0mGET /chkusr [32m200 [0m0.654 ms - 12[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0054,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m131.563 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m3.890 ms - 12748[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.290 ms - 1470[0m
+[0mPOST /api/appointments [32m200 [0m3.786 ms - 297[0m
+Slot updatedtrue
+SM6b89bcc02a6849699839e3daf7ad4d44
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Thu, 05 Jul 2018 11:00:00 GMT.Your appointment id is AP9UGJ2pb',
+  dateCreated: 2018-07-04T03:53:44.000Z,
+  dateUpdated: 2018-07-04T03:53:44.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SM6b89bcc02a6849699839e3daf7ad4d44',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM6b89bcc02a6849699839e3daf7ad4d44/Media.json' },
+  to: '+919910221580',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM6b89bcc02a6849699839e3daf7ad4d44.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SM6b89bcc02a6849699839e3daf7ad4d44' } }
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m3.260 ms - 1481[0m
+[0mPOST /api/appointments [32m200 [0m9.881 ms - 297[0m
+Slot updatedtrue
+SM0bede252cede49d09ddfc9253f6ac8d7
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Thu, 05 Jul 2018 11:10:00 GMT.Your appointment id is AP1ZMOTqs',
+  dateCreated: 2018-07-04T03:54:17.000Z,
+  dateUpdated: 2018-07-04T03:54:17.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SM0bede252cede49d09ddfc9253f6ac8d7',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM0bede252cede49d09ddfc9253f6ac8d7/Media.json' },
+  to: '+919910221580',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM0bede252cede49d09ddfc9253f6ac8d7.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SM0bede252cede49d09ddfc9253f6ac8d7' } }
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.410 ms - 1492[0m
+[0mPOST /api/appointments [32m200 [0m3.319 ms - 297[0m
+Slot updatedtrue
+SM21e00b91cea642319d1bdf0f6d88cd36
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Thu, 05 Jul 2018 11:20:00 GMT.Your appointment id is APWsvc2ys',
+  dateCreated: 2018-07-04T03:54:48.000Z,
+  dateUpdated: 2018-07-04T03:54:48.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SM21e00b91cea642319d1bdf0f6d88cd36',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM21e00b91cea642319d1bdf0f6d88cd36/Media.json' },
+  to: '+919910221580',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM21e00b91cea642319d1bdf0f6d88cd36.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SM21e00b91cea642319d1bdf0f6d88cd36' } }
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.314 ms - 1503[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530729000000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.211 ms - 1448[0m
+[0mPOST /api/appointments [32m200 [0m3.055 ms - 297[0m
+Slot updatedtrue
+SM21c5c13766214179983122a97711437d
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Wed, 04 Jul 2018 11:00:00 GMT.Your appointment id is APcEsK8EV',
+  dateCreated: 2018-07-04T03:55:43.000Z,
+  dateUpdated: 2018-07-04T03:55:43.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SM21c5c13766214179983122a97711437d',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM21c5c13766214179983122a97711437d/Media.json' },
+  to: '+919910221580',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM21c5c13766214179983122a97711437d.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SM21c5c13766214179983122a97711437d' } }
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.410 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.489 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.635 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0067,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m144.821 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.978 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m3.799 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.688 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0067,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m127.827 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.790 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530729000000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.390 ms - 1459[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1531938600000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.545 ms - 1448[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.407 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.382 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.439 ms - -[0m
+[0mPOST /api/appointments [32m200 [0m2.996 ms - 297[0m
+Slot updatedtrue
+SM53a414209d6040ef9a4ce707ce59b480
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Wed, 04 Jul 2018 11:10:00 GMT.Your appointment id is APALHhNCe',
+  dateCreated: 2018-07-04T03:56:24.000Z,
+  dateUpdated: 2018-07-04T03:56:24.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SM53a414209d6040ef9a4ce707ce59b480',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM53a414209d6040ef9a4ce707ce59b480/Media.json' },
+  to: '+919910221580',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM53a414209d6040ef9a4ce707ce59b480.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SM53a414209d6040ef9a4ce707ce59b480' } }
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m4.156 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.374 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.723 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0067,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m153.820 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.720 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530729000000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.316 ms - 1470[0m
+[0mPOST /api/appointments [32m200 [0m3.015 ms - 297[0m
+Slot updatedtrue
+SM8fd77b55359f4cf2a013d138c8d7382d
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Wed, 04 Jul 2018 11:20:00 GMT.Your appointment id is AP72QSKlf',
+  dateCreated: 2018-07-04T03:56:58.000Z,
+  dateUpdated: 2018-07-04T03:56:58.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SM8fd77b55359f4cf2a013d138c8d7382d',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM8fd77b55359f4cf2a013d138c8d7382d/Media.json' },
+  to: '+919910221580',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM8fd77b55359f4cf2a013d138c8d7382d.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SM8fd77b55359f4cf2a013d138c8d7382d' } }
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530729000000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.247 ms - 1481[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530729000000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.315 ms - 1481[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.244 ms - 1503[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.314 ms - 1503[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.769 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.543 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.648 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0067,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m130.460 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.776 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1532025000000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m3.416 ms - 1448[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.487 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.444 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.455 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.485 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.749 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":300.15,"pressure":1000,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":2500,"wind":{"speed":2.6,"deg":70},"clouds":{"all":75},"dt":1530673200,"sys":{"type":1,"id":7809,"message":0.0067,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [36m304 [0m127.846 ms - -[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.773 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[]
+[0mPOST /api/slots/u/arnav [32m200 [0m1.954 ms - 30[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.264 ms - 1503[0m
+Befor stream
+After stream
+[0mGET /downloadtandc [32m200 [0m1.439 ms - -[0m
+[0mPOST /api/appointments [32m200 [0m3.346 ms - 349[0m
+Slot updatedtrue
+SM8e0e2fa7cb4d45b3b76362c21a852461
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Thu, 19 Jul 2018 13:30:00 GMT.Your appointment id is APkQJ7LZI',
+  dateCreated: 2018-07-04T04:02:36.000Z,
+  dateUpdated: 2018-07-04T04:02:36.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SM8e0e2fa7cb4d45b3b76362c21a852461',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM8e0e2fa7cb4d45b3b76362c21a852461/Media.json' },
+  to: '+919888690824',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SM8e0e2fa7cb4d45b3b76362c21a852461.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SM8e0e2fa7cb4d45b3b76362c21a852461' } }
+[0mPOST /api/appointments [32m200 [0m2.992 ms - 297[0m
+Slot updatedtrue
+SMd6bd06221f3d479fb0870e813d575960
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Thu, 05 Jul 2018 13:30:00 GMT.Your appointment id is APzPoqkA7',
+  dateCreated: 2018-07-04T04:02:54.000Z,
+  dateUpdated: 2018-07-04T04:02:54.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SMd6bd06221f3d479fb0870e813d575960',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SMd6bd06221f3d479fb0870e813d575960/Media.json' },
+  to: '+919910221580',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SMd6bd06221f3d479fb0870e813d575960.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SMd6bd06221f3d479fb0870e813d575960' } }
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530729000000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.343 ms - 1481[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m3.632 ms - 1514[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.739 ms - 2674[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.607 ms - 2157[0m
+[0mGET /images/picasi.png [32m200 [0m0.537 ms - 41616[0m
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m0.358 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.374 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.383 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m3.003 ms - 228[0m
+Cookies :   undefined
+[0mGET /chkusr [32m200 [0m0.691 ms - 12[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":301.15,"pressure":1000,"humidity":88,"temp_min":301.15,"temp_max":301.15},"visibility":2500,"wind":{"speed":3.6,"deg":80},"clouds":{"all":40},"dt":1530675000,"sys":{"type":1,"id":7809,"message":0.0058,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m135.598 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m2.681 ms - 12748[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.763 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m0.722 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":301.15,"pressure":1000,"humidity":88,"temp_min":301.15,"temp_max":301.15},"visibility":2500,"wind":{"speed":3.6,"deg":80},"clouds":{"all":40},"dt":1530675000,"sys":{"type":1,"id":7809,"message":0.0058,"country":"IN","sunrise":1530662255,"sunset":1530712338},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m127.452 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m2.953 ms - -[0m
+get slots for = [object Object]
+chatbot_nlu_training
+[ { m_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    e_slt: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    date: 1530815400000,
+    un: 'arnav' } ]
+[0mPOST /api/slots/u/arnav [32m200 [0m2.327 ms - 1514[0m
+[0mPOST /api/appointments [32m200 [0m3.204 ms - 366[0m
+Slot updatedtrue
+SMbcea5b88edff42fc9248152b06bea2e1
+MessageInstance {
+  _version: 
+   V2010 {
+     _domain: 
+      Api {
+        twilio: [Object],
+        baseUrl: 'https://api.twilio.com',
+        _v2010: [Circular] },
+     _version: '2010-04-01',
+     _accounts: undefined,
+     _account: 
+      AccountContext {
+        _version: [Circular],
+        _solution: [Object],
+        _uri: '/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9.json',
+        _addresses: undefined,
+        _applications: undefined,
+        _authorizedConnectApps: undefined,
+        _availablePhoneNumbers: undefined,
+        _calls: undefined,
+        _conferences: undefined,
+        _connectApps: undefined,
+        _incomingPhoneNumbers: undefined,
+        _keys: undefined,
+        _messages: [Object],
+        _newKeys: undefined,
+        _newSigningKeys: undefined,
+        _notifications: undefined,
+        _outgoingCallerIds: undefined,
+        _queues: undefined,
+        _recordings: undefined,
+        _signingKeys: undefined,
+        _sip: undefined,
+        _shortCodes: undefined,
+        _tokens: undefined,
+        _transcriptions: undefined,
+        _usage: undefined,
+        _validationRequests: undefined } },
+  accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+  apiVersion: '2010-04-01',
+  body: 'Hey your appointment is confirmed for Thu, 05 Jul 2018 13:20:00 GMT.Your appointment id is APWoyOqrR',
+  dateCreated: 2018-07-04T04:12:50.000Z,
+  dateUpdated: 2018-07-04T04:12:50.000Z,
+  dateSent: null,
+  direction: 'outbound-api',
+  errorCode: null,
+  errorMessage: null,
+  from: '+15732290658',
+  messagingServiceSid: null,
+  numMedia: '0',
+  numSegments: '1',
+  price: null,
+  priceUnit: 'USD',
+  sid: 'SMbcea5b88edff42fc9248152b06bea2e1',
+  status: 'queued',
+  subresourceUris: 
+   { media: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SMbcea5b88edff42fc9248152b06bea2e1/Media.json' },
+  to: '+919716129478',
+  uri: '/2010-04-01/Accounts/AC5bae868c8eae3c9372d8b436388bd2a9/Messages/SMbcea5b88edff42fc9248152b06bea2e1.json',
+  _context: undefined,
+  _solution: 
+   { accountSid: 'AC5bae868c8eae3c9372d8b436388bd2a9',
+     sid: 'SMbcea5b88edff42fc9248152b06bea2e1' } }
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! chatbot_demo@1.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the chatbot_demo@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/rsa-key-20180624/.npm/_logs/2018-07-04T04_14_12_803Z-debug.log
+
+> chatbot_demo@1.0.0 start /home/einstien0001/Arnav/Picasi
+> node ./bin/www
+
+Mongo Connected !
+[0mGET /plugin/js/chatBotWidget.js [36m304 [0m4.488 ms - -[0m
+[0mGET /plugin/css/widget.css [36m304 [0m0.825 ms - -[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m17.423 ms - -[0m
+Cookies :   undefined
+[0mGET /chkusr [36m304 [0m2.079 ms - -[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":308.15,"pressure":996,"humidity":56,"temp_min":308.15,"temp_max":308.15},"visibility":4000,"wind":{"speed":4.1,"deg":300},"clouds":{"all":40},"dt":1530707400,"sys":{"type":1,"id":7809,"message":0.0063,"country":"IN","sunrise":1530662264,"sunset":1530712337},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m146.020 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [36m304 [0m6.469 ms - -[0m
+[0mGET /images/picasi.png [36m304 [0m0.720 ms - -[0m
+[0mGET /robots.txt [33m404 [0m9.908 ms - 1006[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m2.477 ms - 2707[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.950 ms - 2707[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.634 ms - 2157[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m3.622 ms - 228[0m
+Cookies :   undefined
+[0mGET /chkusr [32m200 [0m0.939 ms - 12[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":308.15,"pressure":996,"humidity":56,"temp_min":308.15,"temp_max":308.15},"visibility":4000,"wind":{"speed":4.1,"deg":300},"clouds":{"all":40},"dt":1530707400,"sys":{"type":1,"id":7809,"message":0.0063,"country":"IN","sunrise":1530662264,"sunset":1530712337},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m129.279 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m4.200 ms - 12748[0m
+[0mGET /images/picasi.png [32m200 [0m0.596 ms - 41616[0m
+[0mGET /plugin/js/chatBotWidget.js [32m200 [0m0.797 ms - 2707[0m
+[0mGET /plugin/css/widget.css [32m200 [0m0.853 ms - 2157[0m
+{ '$or': 
+   [ { id: 'c578e4a2d309f7198b9e98e9dc112b69' },
+     { name: /^c578e4a2d309f7198b9e98e9dc112b69$/i } ] }
+chatbot_nlu_training
+[ { name: 'Virtual Doctor1111',
+    tts: true,
+    stt: true,
+    bg_clr: '#73e3bc',
+    h_clr: '#dd9f9f',
+    ucb_clr: '#e6e7f1',
+    bcb_clr: '#f4fbfb',
+    header: 'Virtual Doctor1111',
+    id: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/projects/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m3.391 ms - 228[0m
+Cookies :   undefined
+[0mGET /chkusr [32m200 [0m0.863 ms - 12[0m
+error: null
+statusCode: 200
+body: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":308.15,"pressure":996,"humidity":56,"temp_min":308.15,"temp_max":308.15},"visibility":4000,"wind":{"speed":4.1,"deg":300},"clouds":{"all":40},"dt":1530707400,"sys":{"type":1,"id":7809,"message":0.0047,"country":"IN","sunrise":1530662265,"sunset":1530712337},"id":7279746,"name":"Noida","cod":200}
+[0mGET /api/weather/-1/-1 [32m200 [0m131.356 ms - 463[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69', status: 1 }
+[ { _id: 5b2f67e8816c14144ff00489,
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    flow: { nodes: [Object], edges: [Array] },
+    sp: 'aac3dfb1-8d8e-4ef8-81ed-4270796c1838',
+    status: 1 } ]
+[0mGET /api/flows/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m5.427 ms - 12748[0m
+chatbot_nlu_training
+[ { _id: 5b2f8bf119d2f644f9a58cc4,
+    username: 'arnav',
+    password: 'pass@123',
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69',
+    rid: 1 } ]
+[0mPOST /api/users/login [32m200 [0m18.270 ms - 200[0m
+checking flow of project = c578e4a2d309f7198b9e98e9dc112b69
+{ pid: 'c578e4a2d309f7198b9e98e9dc112b69' }
+{ pid: 'f7W18EB', status: 1 }
+chatbot_nlu_training
+[ { _id: 5b389f10816c14144ff1bc2c,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f39816c14144ff1bc3e,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f40816c14144ff1bc42,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc45,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc48,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc4b,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389f41816c14144ff1bc4e,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389fa7816c14144ff1bc8a,
+    for: 'Hair loss',
+    title: 'Thanks, Could you share the details below further?',
+    data: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389fc4816c14144ff1bc95,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b389ff3816c14144ff1bcb3,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b38a009816c14144ff1bcba,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b38a0d3816c14144ff1bcfb,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b38f620816c14144ff1d132,
+    for: 'Hair loss',
+    title: 'Thanks, Could you share the details below further?',
+    data: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b39c12d816c14144ff22b85,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b0d39816c14144ff299d3,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b0d69816c14144ff299df,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b66a2816c14144ff2ad7e,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3b66b7816c14144ff2ad85,
+    for: 'Hair loss',
+    title: 'Thanks, Could you share the details below further?',
+    data: 
+     [ [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object],
+       [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' },
+  { _id: 5b3c4b22816c14144ff2dee0,
+    for: 'Skin problems',
+    title: 'Thanks, Could you share the details below further?',
+    data: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    pid: 'c578e4a2d309f7198b9e98e9dc112b69' } ]
+[0mGET /api/forms/c578e4a2d309f7198b9e98e9dc112b69 [32m200 [0m8.796 ms - 12560[0m
+[ { _id: 5b3a77269dc18c310e1ab0dd,
+    user: 
+     { id: 'ww',
+       name: 'Arnav',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1531938600000,
+    slot: { id: 's1530513600000', l: '12:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-02T19:04:06.062Z,
+    u_dt: 2018-07-02T19:04:06.062Z,
+    id: 'APP0CalFM',
+    status: 1,
+    remarks: null },
+  { _id: 5b3af91afa5839323fb199e6,
+    user: 
+     { id: 'ww',
+       name: 'puneet',
+       mobile: '9910266770',
+       email: 'puneet_agarwal@rediffmail.com' },
+    date: 1531120200000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T04:18:34.470Z,
+    u_dt: 2018-07-03T04:18:34.470Z,
+    id: 'APMpBnDOA',
+    status: 1,
+    remarks: 'skin allergy on face' },
+  { _id: 5b3afb4efa5839323fb199e7,
+    user: 
+     { id: 'ww',
+       name: 'Anil',
+       mobile: '9868460736',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1530768600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T04:27:58.118Z,
+    u_dt: 2018-07-03T04:27:58.118Z,
+    id: 'APgjfi9A0',
+    status: 1,
+    remarks: 'pain' },
+  { _id: 5b3b0200fa5839323fb199ea,
+    user: 
+     { id: 'ww',
+       name: 'Anil',
+       mobile: '9716129478',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1531724400000,
+    slot: { id: 's1530514800000', l: '12:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T04:56:32.433Z,
+    u_dt: 2018-07-03T04:56:32.433Z,
+    id: 'APcFCUmfA',
+    status: 1,
+    remarks: 'i have pain in my head' },
+  { _id: 5b3b3898d7ec364897003b19,
+    user: 
+     { id: 'ww',
+       name: 'Arnav simer',
+       mobile: '9888690824',
+       email: 'Arnavsimer@ymail.com' },
+    date: 1530944400000,
+    slot: { id: 's1530512400000', l: '11:50', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T08:49:28.548Z,
+    u_dt: 2018-07-03T08:49:28.548Z,
+    id: 'APApjFkdg',
+    status: 1,
+    remarks: 'Hair loss' },
+  { _id: 5b3b44c5d7ec364897003b1a,
+    user: 
+     { id: 'ww',
+       name: 'kamal kumar tyagi',
+       mobile: '9999911811',
+       email: 'kktyagi@gmail.com' },
+    date: 1530769200000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T09:41:25.026Z,
+    u_dt: 2018-07-03T09:41:25.026Z,
+    id: 'APwkYvvZr',
+    status: 1,
+    remarks: 'skin' },
+  { _id: 5b3b4918d7ec364897003b1b,
+    user: { id: 'ww', name: 'ggeeta', mobile: '9910221580', email: null },
+    date: 1530771000000,
+    slot: { id: 's1530511800000', l: '11:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T09:59:52.161Z,
+    u_dt: 2018-07-03T09:59:52.161Z,
+    id: 'APTmWRFmX',
+    status: 1,
+    remarks: null },
+  { _id: 5b3b6673d7ec364897003b1c,
+    user: { id: 'ww', name: 'umang', mobile: '9555104104', email: null },
+    date: 1530773400000,
+    slot: { id: 's1530514200000', l: '12:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T12:05:07.150Z,
+    u_dt: 2018-07-03T12:05:07.150Z,
+    id: 'APBPDj9MR',
+    status: 1,
+    remarks: 'skin' },
+  { _id: 5b3b74cbd7ec364897003b1d,
+    user: 
+     { id: 'ww',
+       name: 'Anil Kumar Chaudhary',
+       mobile: '9716129478',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1531382400000,
+    slot: { id: 's1530518400000', l: '13:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T13:06:19.459Z,
+    u_dt: 2018-07-03T13:06:19.459Z,
+    id: 'AP2XCh1By',
+    status: 1,
+    remarks: 'Pain' },
+  { _id: 5b3b91a7d7ec364897003b1e,
+    user: { id: 'ww', name: 'Puneet', mobile: '9910266770', email: null },
+    date: 1530798600000,
+    slot: { id: 's1530539400000', l: '19:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T15:09:27.422Z,
+    u_dt: 2018-07-03T15:09:27.422Z,
+    id: 'APAGSfbsI',
+    status: 1,
+    remarks: '' },
+  { _id: 5b3ba275d7ec364897003b1f,
+    user: { id: 'ww', name: 'Rajshree', mobile: '9810270580', email: null },
+    date: 1530859200000,
+    slot: { id: 's1530513600000', l: '12:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T16:21:09.979Z,
+    u_dt: 2018-07-03T16:21:09.979Z,
+    id: 'APj2TYfTc',
+    status: 1,
+    remarks: null },
+  { _id: 5b3ba395d7ec364897003b20,
+    user: { id: 'ww', name: 'Dr geeta', mobile: '9910221580', email: null },
+    date: 1530768600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T16:25:57.575Z,
+    u_dt: 2018-07-03T16:25:57.575Z,
+    id: 'APF2zMrAJ',
+    status: 1,
+    remarks: null },
+  { _id: 5b3bae15d7ec364897003b21,
+    user: { id: 'ww', name: 'geeta', mobile: '9910270580', email: null },
+    date: 1530768600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T17:10:45.289Z,
+    u_dt: 2018-07-03T17:10:45.289Z,
+    id: 'APHljmu0I',
+    status: 1,
+    remarks: null },
+  { _id: 5b3bb1cfd7ec364897003b22,
+    user: 
+     { id: 'ww',
+       name: 'anil',
+       mobile: '9868460736',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1532068200000,
+    slot: { id: 's1530513000000', l: '12:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T17:26:39.982Z,
+    u_dt: 2018-07-03T17:26:39.982Z,
+    id: 'APNdAEDon',
+    status: 1,
+    remarks: 'i have pain in my body and temp.' },
+  { _id: 5b3bbc0a3bcdf25835f4937c,
+    user: { id: 'ww', name: 'Geeta', mobile: '9910221580', email: '' },
+    date: 1530941400000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:10:18.366Z,
+    u_dt: 2018-07-03T18:10:18.366Z,
+    id: 'APTnIoz2Y',
+    status: 1,
+    remarks: null },
+  { _id: 5b3bbd503bcdf25835f4937d,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1533015600000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:15:44.454Z,
+    u_dt: 2018-07-03T18:15:44.454Z,
+    id: 'APbmZvoYI',
+    status: 1,
+    remarks: 'ssdsds' },
+  { _id: 5b3bbe703bcdf25835f4937e,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532416200000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:20:32.396Z,
+    u_dt: 2018-07-03T18:20:32.396Z,
+    id: 'APSZ9bYem',
+    status: 1,
+    remarks: 'aasasasas' },
+  { _id: 5b3bbf519c58b159e28df347,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532931000000,
+    slot: { id: 's1530511800000', l: '11:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T18:24:17.363Z,
+    u_dt: 2018-07-03T18:24:17.363Z,
+    id: 'AP0jNSIGN',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'sadads' },
+  { _id: 5b3bd0de03de245eb2efb6ae,
+    user: 
+     { id: 'ww',
+       name: 'sasdf',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1531551000000,
+    slot: { id: 's1530514200000', l: '12:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T19:39:10.851Z,
+    u_dt: 2018-07-03T19:39:10.851Z,
+    id: 'APt8SjWqY',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3bd38d764b175f3eb05e82,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530797400000,
+    slot: { id: 's1530538200000', l: '19:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T19:50:37.508Z,
+    u_dt: 2018-07-03T19:50:37.508Z,
+    id: 'APVFshbeY',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3be188fb18076155cf4594,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329800000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T20:50:16.092Z,
+    u_dt: 2018-07-03T20:50:16.092Z,
+    id: 'APg93pbAh',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'Small bimari' },
+  { _id: 5b3be67ede950262255025e2,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532332800000,
+    slot: { id: 's1530518400000', l: '13:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:11:26.820Z,
+    u_dt: 2018-07-03T21:11:26.820Z,
+    id: 'APyscRPNz',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3be78266728b625f06bb43,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1532329200000,
+    slot: { id: 's1530514800000', l: '12:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-03T21:15:46.154Z,
+    u_dt: 2018-07-03T21:15:46.154Z,
+    id: 'APlyGhrWY',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c2bbeb18932650b90c0e3,
+    user: 
+     { id: 'ww',
+       name: 'Anil Kumar Chaudhary',
+       mobile: '9716129478',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1531333800000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T02:06:54.598Z,
+    u_dt: 2018-07-04T02:06:54.598Z,
+    id: 'APTURKJF7',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'Pain in knee' },
+  { _id: 5b3c3a75b18932650b90c0e4,
+    user: { id: 'ww', name: 'puneet', mobile: '9910266770', email: null },
+    date: 1530815400000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T03:09:41.698Z,
+    u_dt: 2018-07-04T03:09:41.698Z,
+    id: 'APdpyneHc',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'hhhh' },
+  { _id: 5b3c3b2cb18932650b90c0e5,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530815400000,
+    slot: { id: 's1530513000000', l: '12:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T03:12:44.382Z,
+    u_dt: 2018-07-04T03:12:44.382Z,
+    id: 'APvmCalY7',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c44c6b18932650b90c0e6,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530815400000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T03:53:42.736Z,
+    u_dt: 2018-07-04T03:53:42.736Z,
+    id: 'AP9UGJ2pb',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c44e8b18932650b90c0e7,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530815400000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T03:54:16.590Z,
+    u_dt: 2018-07-04T03:54:16.590Z,
+    id: 'AP1ZMOTqs',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c4507b18932650b90c0e8,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530815400000,
+    slot: { id: 's1530510600000', l: '11:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T03:54:47.748Z,
+    u_dt: 2018-07-04T03:54:47.748Z,
+    id: 'APWsvc2ys',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c453eb18932650b90c0e9,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530729000000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T03:55:42.728Z,
+    u_dt: 2018-07-04T03:55:42.728Z,
+    id: 'APcEsK8EV',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c4568b18932650b90c0ea,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530729000000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T03:56:24.007Z,
+    u_dt: 2018-07-04T03:56:24.007Z,
+    id: 'APALHhNCe',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c4589b18932650b90c0eb,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530729000000,
+    slot: { id: 's1530510600000', l: '11:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T03:56:57.490Z,
+    u_dt: 2018-07-04T03:56:57.490Z,
+    id: 'AP72QSKlf',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c46dab18932650b90c0ec,
+    user: 
+     { id: 'ww',
+       name: 'Arnav simer',
+       mobile: '9888690824',
+       email: 'Arnavsimer@ymail.com' },
+    date: 1532025000000,
+    slot: { id: 's1530518400000', l: '13:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T04:02:34.857Z,
+    u_dt: 2018-07-04T04:02:34.857Z,
+    id: 'APkQJ7LZI',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'Problem' },
+  { _id: 5b3c46edb18932650b90c0ed,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530815400000,
+    slot: { id: 's1530518400000', l: '13:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T04:02:53.913Z,
+    u_dt: 2018-07-04T04:02:53.913Z,
+    id: 'APzPoqkA7',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c4940b18932650b90c0ee,
+    user: 
+     { id: 'ww',
+       name: 'Anil Kumar Chaudhary',
+       mobile: '9716129478',
+       email: 'anilkumar6079@gmail.com' },
+    date: 1530815400000,
+    slot: { id: 's1530517800000', l: '13:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T04:12:48.664Z,
+    u_dt: 2018-07-04T04:12:48.664Z,
+    id: 'APWoyOqrR',
+    status: 1,
+    pmode: 'cash',
+    remarks: 'Pain in head' },
+  { _id: 5b3c4d003246d07105f55204,
+    user: 
+     { id: 'ww',
+       name: 'Parth Shekhar',
+       mobile: '9167071273',
+       email: 'hshekhar.asme@gmail.com' },
+    date: 1530729000000,
+    slot: { id: 's1530511200000', l: '11:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T04:28:48.787Z,
+    u_dt: 2018-07-04T04:28:48.787Z,
+    id: 'APDvXGMWE',
+    status: 1,
+    pmode: 'online',
+    remarks: 'Review Followup with doc ' },
+  { _id: 5b3c65873246d07105f55205,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530729000000,
+    slot: { id: 's1530511800000', l: '11:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T06:13:27.483Z,
+    u_dt: 2018-07-04T06:13:27.483Z,
+    id: 'APAsefkXj',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c66653246d07105f55206,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1530729000000,
+    slot: { id: 's1530515400000', l: '12:40', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T06:17:09.381Z,
+    u_dt: 2018-07-04T06:17:09.381Z,
+    id: 'APs3x3b8D',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c679a3246d07105f55207,
+    user: { id: 'ww', name: 'geeta', mobile: '9910221580', email: null },
+    date: 1530729000000,
+    slot: { id: 's1530518400000', l: '13:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T06:22:18.758Z,
+    u_dt: 2018-07-04T06:22:18.758Z,
+    id: 'AP7KYpcWB',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c6acc3246d07105f55208,
+    user: { id: 'ww', name: 'geeta', mobile: '9810270580', email: null },
+    date: 1530901800000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T06:35:56.349Z,
+    u_dt: 2018-07-04T06:35:56.349Z,
+    id: 'APEYoJPkJ',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c6af53246d07105f55209,
+    user: { id: 'ww', name: 'geeta', mobile: '9810270580', email: null },
+    date: 1530901800000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T06:36:37.937Z,
+    u_dt: 2018-07-04T06:36:37.937Z,
+    id: 'APqESXUQm',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c6b1f3246d07105f5520a,
+    user: { id: 'ww', name: 'geeta', mobile: '9810270580', email: null },
+    date: 1530901800000,
+    slot: { id: 's1530510600000', l: '11:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T06:37:19.227Z,
+    u_dt: 2018-07-04T06:37:19.227Z,
+    id: 'APoiC4X2C',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c6d663246d07105f5520b,
+    user: 
+     { id: 'ww',
+       name: 'Rajyashree',
+       mobile: '9810270580',
+       email: null },
+    date: 1531074600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T06:47:02.314Z,
+    u_dt: 2018-07-04T06:47:02.314Z,
+    id: 'APsv8UkxY',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c6e153246d07105f5520c,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1531074600000,
+    slot: { id: 's1530510600000', l: '11:20', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T06:49:57.231Z,
+    u_dt: 2018-07-04T06:49:57.231Z,
+    id: 'APSWxsOSE',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c6f6b3246d07105f5520d,
+    user: 
+     { id: 'ww',
+       name: 'Geeta gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1531074600000,
+    slot: { id: 's1530518400000', l: '13:30', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T06:55:39.843Z,
+    u_dt: 2018-07-04T06:55:39.843Z,
+    id: 'APoGyD1pe',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c79853246d07105f5520e,
+    user: 
+     { id: 'ww',
+       name: 'Rajyashree',
+       mobile: '9810270580',
+       email: null },
+    date: 1531074600000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T07:38:45.922Z,
+    u_dt: 2018-07-04T07:38:45.922Z,
+    id: 'AP3lEObcM',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c7a303246d07105f5520f,
+    user: 
+     { id: 'ww',
+       name: 'Dr. Geeta Gera',
+       mobile: '9910221580',
+       email: null },
+    date: 1531161000000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T07:41:36.562Z,
+    u_dt: 2018-07-04T07:41:36.562Z,
+    id: 'APEQaozW1',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3c849d3246d07105f55210,
+    user: { id: 'ww', name: 'Vikas', mobile: '9818222978', email: null },
+    date: 1531161000000,
+    slot: { id: 's1530510000000', l: '11:10', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T08:26:05.000Z,
+    u_dt: 2018-07-04T08:26:05.000Z,
+    id: 'APJ9znwR6',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3ca01c3246d07105f55211,
+    user: { id: 'ww', name: 'Vikas', mobile: '9818222978', email: null },
+    date: 1531506600000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T10:23:24.775Z,
+    u_dt: 2018-07-04T10:23:24.775Z,
+    id: 'APyi1P3km',
+    status: 1,
+    pmode: 'cash',
+    remarks: null },
+  { _id: 5b3cab313246d07105f55212,
+    user: 
+     { id: 'ww',
+       name: 'Arnav Simer',
+       mobile: '9888690824',
+       email: 'arnavsimer@ymail.com' },
+    date: 1535653800000,
+    slot: { id: 's1530509400000', l: '11:00', val: true },
+    pid: 'f7W18EB',
+    c_dt: 2018-07-04T11:10:41.939Z,
+    u_dt: 2018-07-04T11:10:41.939Z,
+    id: 'AP3XFU7P1',
+    status: 1,
+    pmode: 'cash',
+    remarks: null } ]
+[0mGET /api/appointments/f7W18EB [32m200 [0m14.192 ms - 16577[0m
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! chatbot_demo@1.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the chatbot_demo@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/rsa-key-20180624/.npm/_logs/2018-07-04T13_39_19_474Z-debug.log
